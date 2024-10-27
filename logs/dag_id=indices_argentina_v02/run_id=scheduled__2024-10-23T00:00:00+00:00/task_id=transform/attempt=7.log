@@ -1,0 +1,3 @@
+[2024-10-25T07:20:13.191+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-25T07:20:13.228+0000] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: indices_argentina_v02.transform scheduled__2024-10-23T00:00:00+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'extract_and_land'}
+[2024-10-25T07:20:13.235+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run
