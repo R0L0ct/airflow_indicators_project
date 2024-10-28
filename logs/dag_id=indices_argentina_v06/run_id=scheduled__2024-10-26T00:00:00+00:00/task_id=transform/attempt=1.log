@@ -1,0 +1,32 @@
+[2024-10-27T22:45:48.888+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-27T22:45:48.907+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: indices_argentina_v06.transform scheduled__2024-10-26T00:00:00+00:00 [queued]>
+[2024-10-27T22:45:48.918+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: indices_argentina_v06.transform scheduled__2024-10-26T00:00:00+00:00 [queued]>
+[2024-10-27T22:45:48.919+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2024-10-27T22:45:48.934+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-26 00:00:00+00:00
+[2024-10-27T22:45:48.942+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'indices_argentina_v06', 'transform', 'scheduled__2024-10-26T00:00:00+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpg29wg5yg']
+[2024-10-27T22:45:48.944+0000] {standard_task_runner.py:105} INFO - Job 174: Subtask transform
+[2024-10-27T22:45:48.947+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=4384) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-27T22:45:48.947+0000] {standard_task_runner.py:72} INFO - Started process 4411 to run task
+[2024-10-27T22:45:48.999+0000] {task_command.py:467} INFO - Running <TaskInstance: indices_argentina_v06.transform scheduled__2024-10-26T00:00:00+00:00 [running]> on host d9df5aecafce
+[2024-10-27T22:45:49.227+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='indices_argentina_v06' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-26T00:00:00+00:00'
+[2024-10-27T22:45:49.227+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-27T22:46:09.891+0000] {logging_mixin.py:190} INFO - Error: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `fecha` cannot be resolved. Did you mean one of the following? [`fecha`, `fecha`, `valor_anual`, `valor_mensual`, `valor_riesgo`].;
+'Sort ['fecha DESC NULLS LAST], true
++- Join Inner, ((year(cast(fecha#25 as date)) = year(cast(fecha#81 as date))) AND (month(cast(fecha#25 as date)) = month(cast(fecha#81 as date))))
+   :- Project [fecha#25, valor_mensual#21, valor_anual#49]
+   :  +- Join Inner, (fecha#25 = fecha#53)
+   :     :- Project [cast(fecha#17 as timestamp) AS fecha#25, valor_mensual#21]
+   :     :  +- Project [fecha#17, valor#18 AS valor_mensual#21]
+   :     :     +- Relation [fecha#17,valor#18] csv
+   :     +- Project [cast(fecha#45 as timestamp) AS fecha#53, valor_anual#49]
+   :        +- Project [fecha#45, valor#46 AS valor_anual#49]
+   :           +- Relation [fecha#45,valor#46] csv
+   +- Project [cast(fecha#73 as timestamp) AS fecha#81, valor_riesgo#77]
+      +- Project [fecha#73, valor#74 AS valor_riesgo#77]
+         +- Relation [fecha#73,valor#74] csv
+[2024-10-27T22:46:10.478+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-27T22:46:10.496+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-27T22:46:10.497+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=indices_argentina_v06, task_id=transform, run_id=scheduled__2024-10-26T00:00:00+00:00, execution_date=20241026T000000, start_date=20241027T224548, end_date=20241027T224610
+[2024-10-27T22:46:10.537+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-27T22:46:10.610+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-27T22:46:10.612+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
