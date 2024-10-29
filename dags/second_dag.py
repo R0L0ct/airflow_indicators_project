@@ -11,21 +11,32 @@ from functions.indicators_province_functions import (
 default_args = {"owner": "rolo", "retries": 5, "retry_delay": timedelta(minutes=2)}
 
 with DAG(
-    dag_id="indices_provincias_v01",
+    dag_id="indices_provincias_v05",
     default_args=default_args,
     start_date=datetime(2024, 10, 27),
     schedule_interval="0 0 * * *",
 ) as dag:
 
-    inflacion_parana = PythonOperator(
-        task_id="inflacion_parana",
-        python_callable=parana_inflation,
-    )
+    functions_dictionary = {
+        "inflacion_parana": parana_inflation,
+        "inflacion_santafe": santafe_inflation,
+        "inflacion_cordoba": cordoba_inflation
+    } 
 
-    inflacion_santafe = PythonOperator(
-        task_id="inflacion_santafe", python_callable=santafe_inflation
-    )
+    tasks = [] 
 
-    inflacion_cordoba = PythonOperator(
-        task_id="inflacion_cordoba", python_callable=cordoba_inflation
-    )
+    for task_id, function in functions_dictionary.items():
+        inflacion_provincias = PythonOperator(
+            task_id=task_id,
+            python_callable=function,
+        )
+
+        tasks.append(inflacion_provincias)
+
+    # Sequential Tasks
+    # for i in range(len(tasks) - 1):
+    #     tasks[i] >> tasks[i + 1]
+
+    # Parallel Tasks
+    tasks
+
