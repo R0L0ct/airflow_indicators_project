@@ -1,0 +1,18 @@
+[2024-10-29T00:14:59.482+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-29T00:14:59.500+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: indices_argentina_v08.load scheduled__2024-10-28T00:00:00+00:00 [queued]>
+[2024-10-29T00:14:59.510+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: indices_argentina_v08.load scheduled__2024-10-28T00:00:00+00:00 [queued]>
+[2024-10-29T00:14:59.510+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2024-10-29T00:14:59.525+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load> on 2024-10-28 00:00:00+00:00
+[2024-10-29T00:14:59.532+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'indices_argentina_v08', 'load', 'scheduled__2024-10-28T00:00:00+00:00', '--job-id', '254', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpd7e59v1q']
+[2024-10-29T00:14:59.534+0000] {standard_task_runner.py:105} INFO - Job 254: Subtask load
+[2024-10-29T00:14:59.537+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1324) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-29T00:14:59.538+0000] {standard_task_runner.py:72} INFO - Started process 1325 to run task
+[2024-10-29T00:14:59.580+0000] {task_command.py:467} INFO - Running <TaskInstance: indices_argentina_v08.load scheduled__2024-10-28T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-10-29T00:14:59.810+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='indices_argentina_v08' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-10-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-28T00:00:00+00:00'
+[2024-10-29T00:14:59.811+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-29T00:15:11.969+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-29T00:15:11.987+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-29T00:15:11.988+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=indices_argentina_v08, task_id=load, run_id=scheduled__2024-10-28T00:00:00+00:00, execution_date=20241028T000000, start_date=20241029T001459, end_date=20241029T001511
+[2024-10-29T00:15:12.021+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-29T00:15:12.039+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-29T00:15:12.045+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

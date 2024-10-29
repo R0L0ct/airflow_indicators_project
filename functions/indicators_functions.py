@@ -6,10 +6,17 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import date_format, month, year
 
 
-def create_spark_session():
+load_dotenv()
+POSTGRES_JAR = os.getenv('POSTGRES_JAR') 
+INDICE_ANUAL = os.getenv('INDICE_ANUAL') 
+INDICE_MENSUAL = os.getenv('INDICE_MENSUAL') 
+RIESGO_PAIS = os.getenv('RIESGO_PAIS') 
+INDICE_JOINED = os.getenv('INDICE_JOINED') 
+URL_POSTGRES = os.getenv('URL_POSTGRES') 
+USER_POSTGRES = os.getenv('USER_POSTGRES') 
+PASSWORD_POSTGRES = os.getenv('PASSWORD_POSTGRES') 
 
-    load_dotenv()
-    POSTGRES_JAR = os.getenv('POSTGRES_JAR') 
+def create_spark_session():
 
     if not POSTGRES_JAR:
         raise ValueError("POSTGRES_JAR not found")
@@ -28,12 +35,6 @@ def extract_and_land():
     spark = None
 
     try:
-
-        load_dotenv()
-        
-        INDICE_ANUAL = os.getenv('INDICE_ANUAL') 
-        INDICE_MENSUAL = os.getenv('INDICE_MENSUAL') 
-        RIESGO_PAIS = os.getenv('RIESGO_PAIS') 
 
         spark = create_spark_session()
 
@@ -109,13 +110,7 @@ def transform():
     spark = None
 
     try:
-        load_dotenv()
         
-        INDICE_ANUAL = os.getenv('INDICE_ANUAL') 
-        INDICE_MENSUAL = os.getenv('INDICE_MENSUAL') 
-        RIESGO_PAIS = os.getenv('RIESGO_PAIS') 
-        INDICE_JOINED = os.getenv('INDICE_JOINED') 
-
         spark = create_spark_session()
 
         # Dataframe Inflacion mensual 
@@ -179,13 +174,7 @@ def load_and_sink():
     spark = None
 
     try:
-        load_dotenv()
         
-        INDICE_JOINED = os.getenv('INDICE_JOINED') 
-        URL_POSTGRES = os.getenv('URL_POSTGRES') 
-        USER_POSTGRES = os.getenv('USER_POSTGRES') 
-        PASSWORD_POSTGRES = os.getenv('PASSWORD_POSTGRES') 
-
         spark = create_spark_session()
 
         df_transformed = spark.read.csv(
