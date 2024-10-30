@@ -1,0 +1,44 @@
+[2024-10-29T21:59:30.095+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-29T21:59:30.118+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ipc_inflation_v01.extract_and_land scheduled__2024-10-28T00:00:00+00:00 [queued]>
+[2024-10-29T21:59:30.129+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ipc_inflation_v01.extract_and_land scheduled__2024-10-28T00:00:00+00:00 [queued]>
+[2024-10-29T21:59:30.129+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2024-10-29T21:59:30.148+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_and_land> on 2024-10-28 00:00:00+00:00
+[2024-10-29T21:59:30.158+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ipc_inflation_v01', 'extract_and_land', 'scheduled__2024-10-28T00:00:00+00:00', '--job-id', '309', '--raw', '--subdir', 'DAGS_FOLDER/ipc_dag.py', '--cfg-path', '/tmp/tmpeze_k5de']
+[2024-10-29T21:59:30.162+0000] {standard_task_runner.py:105} INFO - Job 309: Subtask extract_and_land
+[2024-10-29T21:59:30.165+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5271) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-29T21:59:30.166+0000] {standard_task_runner.py:72} INFO - Started process 5272 to run task
+[2024-10-29T21:59:30.227+0000] {task_command.py:467} INFO - Running <TaskInstance: ipc_inflation_v01.extract_and_land scheduled__2024-10-28T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-10-29T21:59:30.511+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='ipc_inflation_v01' AIRFLOW_CTX_TASK_ID='extract_and_land' AIRFLOW_CTX_EXECUTION_DATE='2024-10-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-28T00:00:00+00:00'
+[2024-10-29T21:59:30.512+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-29T21:59:37.073+0000] {logging_mixin.py:190} INFO - CSV successfully downloaded
+[2024-10-29T21:59:43.520+0000] {logging_mixin.py:190} INFO - +---------------------------------------------------------------------------+
+|Codigo;Descripcion;Clasificador;Periodo;Indice_IPC;v_m_IPC;v_i_a_IPC;Region|
++---------------------------------------------------------------------------+
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       0;NIVEL GENERAL;N...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       01;Alimentos y be...|
+|                                                       02;Bebidas alcoh�...|
+|                                                       02;Bebidas alcoh�...|
+|                                                       02;Bebidas alcoh�...|
+|                                                       02;Bebidas alcoh�...|
+|                                                       02;Bebidas alcoh�...|
+|                                                       02;Bebidas alcoh�...|
++---------------------------------------------------------------------------+
+only showing top 20 rows
+[2024-10-29T21:59:43.786+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-29T21:59:43.797+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-29T21:59:43.798+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ipc_inflation_v01, task_id=extract_and_land, run_id=scheduled__2024-10-28T00:00:00+00:00, execution_date=20241028T000000, start_date=20241029T215930, end_date=20241029T215943
+[2024-10-29T21:59:43.869+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-29T21:59:43.888+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-29T21:59:43.890+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

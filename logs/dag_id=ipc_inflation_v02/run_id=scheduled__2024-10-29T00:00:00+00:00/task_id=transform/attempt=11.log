@@ -1,0 +1,24 @@
+[2024-10-30T03:01:40.120+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-30T03:01:40.139+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ipc_inflation_v02.transform scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T03:01:40.151+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ipc_inflation_v02.transform scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T03:01:40.152+0000] {taskinstance.py:2865} INFO - Starting attempt 11 of 16
+[2024-10-30T03:01:40.168+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-29 00:00:00+00:00
+[2024-10-30T03:01:40.177+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ipc_inflation_v02', 'transform', 'scheduled__2024-10-29T00:00:00+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/ipc_dag.py', '--cfg-path', '/tmp/tmpvrrir9fj']
+[2024-10-30T03:01:40.180+0000] {standard_task_runner.py:105} INFO - Job 336: Subtask transform
+[2024-10-30T03:01:40.183+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=9669) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-30T03:01:40.184+0000] {standard_task_runner.py:72} INFO - Started process 9670 to run task
+[2024-10-30T03:01:40.235+0000] {task_command.py:467} INFO - Running <TaskInstance: ipc_inflation_v02.transform scheduled__2024-10-29T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-10-30T03:01:40.498+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='ipc_inflation_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='11' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-29T00:00:00+00:00'
+[2024-10-30T03:01:40.499+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-30T03:01:53.116+0000] {logging_mixin.py:190} INFO - Error: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `avg_ipc_mensual` cannot be resolved. Did you mean one of the following? [`Periodo`, `round(avg(v_m_IPC) AS avg_ipc_mensual, 2)`].;
+'Project [Periodo#20, round(avg(v_m_IPC) AS avg_ipc_mensual, 2)#40, lag('avg_ipc_mensual, -1, null) windowspecdefinition(Periodo#20 ASC NULLS FIRST, specifiedwindowframe(RowFrame, -1, -1)) AS ipc_anterior#43]
++- Sort [Periodo#20 DESC NULLS LAST], true
+   +- Aggregate [Periodo#20], [Periodo#20, round(avg(cast(v_m_IPC#22 as double)), 2) AS round(avg(v_m_IPC) AS avg_ipc_mensual, 2)#40]
+      +- Project [Periodo#20, v_m_IPC#22]
+         +- Relation [Codigo#17,Descripcion#18,Clasificador#19,Periodo#20,Indice_IPC#21,v_m_IPC#22,v_i_a_IPC#23,Region#24] csv
+[2024-10-30T03:01:53.232+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-30T03:01:53.245+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-30T03:01:53.246+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ipc_inflation_v02, task_id=transform, run_id=scheduled__2024-10-29T00:00:00+00:00, execution_date=20241029T000000, start_date=20241030T030140, end_date=20241030T030153
+[2024-10-30T03:01:53.299+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-30T03:01:53.322+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-30T03:01:53.323+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2024-10-30T00:58:20.589+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-30T00:58:20.610+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ipc_inflation_v02.extract_and_land scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T00:58:20.622+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ipc_inflation_v02.extract_and_land scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T00:58:20.622+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2024-10-30T00:58:20.644+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_and_land> on 2024-10-29 00:00:00+00:00
+[2024-10-30T00:58:20.653+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ipc_inflation_v02', 'extract_and_land', 'scheduled__2024-10-29T00:00:00+00:00', '--job-id', '324', '--raw', '--subdir', 'DAGS_FOLDER/ipc_dag.py', '--cfg-path', '/tmp/tmp6fa_p_ir']
+[2024-10-30T00:58:20.655+0000] {standard_task_runner.py:105} INFO - Job 324: Subtask extract_and_land
+[2024-10-30T00:58:20.660+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2521) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-30T00:58:20.661+0000] {standard_task_runner.py:72} INFO - Started process 2524 to run task
+[2024-10-30T00:58:20.715+0000] {task_command.py:467} INFO - Running <TaskInstance: ipc_inflation_v02.extract_and_land scheduled__2024-10-29T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-10-30T00:58:20.977+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='ipc_inflation_v02' AIRFLOW_CTX_TASK_ID='extract_and_land' AIRFLOW_CTX_EXECUTION_DATE='2024-10-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-29T00:00:00+00:00'
+[2024-10-30T00:58:20.978+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-30T00:58:34.900+0000] {logging_mixin.py:190} INFO - CSV successfully downloaded
+[2024-10-30T00:58:35.302+0000] {python.py:240} INFO - Done. Returned value was: /opt/***/data/ipc/serie_ipc_divisiones.csv
+[2024-10-30T00:58:35.336+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-30T00:58:35.337+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ipc_inflation_v02, task_id=extract_and_land, run_id=scheduled__2024-10-29T00:00:00+00:00, execution_date=20241029T000000, start_date=20241030T005820, end_date=20241030T005835
+[2024-10-30T00:58:35.403+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-30T00:58:35.429+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-30T00:58:35.430+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

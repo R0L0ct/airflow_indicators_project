@@ -1,0 +1,43 @@
+[2024-10-30T04:12:52.030+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-30T04:12:52.049+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ipc_inflation_v03.transform scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T04:12:52.062+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ipc_inflation_v03.transform scheduled__2024-10-29T00:00:00+00:00 [queued]>
+[2024-10-30T04:12:52.062+0000] {taskinstance.py:2865} INFO - Starting attempt 3 of 8
+[2024-10-30T04:12:52.079+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-29 00:00:00+00:00
+[2024-10-30T04:12:52.087+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=15560) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-30T04:12:52.089+0000] {standard_task_runner.py:72} INFO - Started process 15561 to run task
+[2024-10-30T04:12:52.087+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ipc_inflation_v03', 'transform', 'scheduled__2024-10-29T00:00:00+00:00', '--job-id', '354', '--raw', '--subdir', 'DAGS_FOLDER/ipc_dag.py', '--cfg-path', '/tmp/tmp4atbq_v_']
+[2024-10-30T04:12:52.090+0000] {standard_task_runner.py:105} INFO - Job 354: Subtask transform
+[2024-10-30T04:12:52.143+0000] {task_command.py:467} INFO - Running <TaskInstance: ipc_inflation_v03.transform scheduled__2024-10-29T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-10-30T04:12:52.412+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='ipc_inflation_v03' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-29T00:00:00+00:00'
+[2024-10-30T04:12:52.413+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-30T04:13:08.011+0000] {logging_mixin.py:190} INFO - +-------+---------------+-----------------+------------------+
+|Periodo|avg_ipc_mensual|variacion_mensual|avg_ipc_interanual|
++-------+---------------+-----------------+------------------+
+| 202409|            3.4|            -2.33|             220.8|
+| 202408|           5.73|              0.4|            261.22|
+| 202407|           5.33|            -0.31|            294.33|
+| 202406|           5.64|             1.31|            272.73|
+| 202405|           4.33|            -6.67|            286.14|
+| 202404|           11.0|            -8.27|            286.43|
+| 202403|          19.27|             3.94|             262.3|
+| 202402|          15.33|            -7.57|             259.4|
+| 202401|           22.9|             -1.5|            233.13|
+| 202312|           24.4|            11.58|            183.53|
+| 202311|          12.82|              5.0|             150.0|
+| 202310|           7.82|            -3.18|            138.36|
+| 202309|           11.0|              1.4|             141.0|
+| 202308|            9.6|             2.91|             119.6|
+| 202307|           6.69|            -0.93|            110.67|
+| 202306|           7.62|            -0.62|            116.62|
+| 202305|           8.24|             0.94|             105.5|
+| 202304|            7.3|              1.1|            104.67|
+| 202303|            6.2|             0.02|             103.0|
+| 202302|           6.18|            -0.07|             98.29|
++-------+---------------+-----------------+------------------+
+only showing top 20 rows
+[2024-10-30T04:13:09.681+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-30T04:13:09.696+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-30T04:13:09.696+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ipc_inflation_v03, task_id=transform, run_id=scheduled__2024-10-29T00:00:00+00:00, execution_date=20241029T000000, start_date=20241030T041252, end_date=20241030T041309
+[2024-10-30T04:13:09.748+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-30T04:13:09.770+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-30T04:13:09.772+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
