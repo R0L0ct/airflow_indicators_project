@@ -1,0 +1,68 @@
+[2024-11-02T03:43:23.507+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T03:43:23.533+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T03:43:23.551+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T03:43:23.552+0000] {taskinstance.py:2865} INFO - Starting attempt 20 of 25
+[2024-11-02T03:43:23.582+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T03:43:23.594+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=16857) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T03:43:23.596+0000] {standard_task_runner.py:72} INFO - Started process 16858 to run task
+[2024-11-02T03:43:23.594+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '469', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpe8xmb5pt']
+[2024-11-02T03:43:23.598+0000] {standard_task_runner.py:105} INFO - Job 469: Subtask transform
+[2024-11-02T03:43:23.680+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T03:43:23.988+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='20' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T03:43:23.990+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T03:43:40.672+0000] {logging_mixin.py:190} INFO - +--------------------+------------------+
+|        Country Name|pbi_percapita 2023|
++--------------------+------------------+
+|             "Aruba"|                ""|
+|                  ""| "1672.5059574692"|
+|        "Afganistán"|                ""|
+|                  ""|"1584.33328485465"|
+|            "Angola"|"2309.52162029791"|
+|           "Albania"|"8367.77573143421"|
+|           "Andorra"|"46544.7207199483"|
+|    "El mundo árabe"|"7377.39893629449"|
+|"Emiratos Árabes ...|"52976.8083782405"|
+|         "Argentina"|"13730.5147090247"|
+|           "Armenia"|"8715.76533622178"|
+|   "Samoa Americana"|                ""|
+| "Antigua y Barbuda"|"21560.2153299665"|
+|         "Australia"|"64711.7656030565"|
+|           "Austria"|"56505.9682796867"|
+|        "Azerbaiyán"|"7155.08360355897"|
+|           "Burundi"|"199.580760181492"|
+|           "Bélgica"|"53475.2934952935"|
+|             "Benin"|"1434.66283439144"|
+|      "Burkina Faso"|"874.121280381345"|
++--------------------+------------------+
+only showing top 20 rows
+[2024-11-02T03:43:41.087+0000] {logging_mixin.py:190} INFO - +--------------------+-------------------------+
+|        Country Name|inversion_extranjera 2023|
++--------------------+-------------------------+
+|             "Aruba"|       "3.48282600044041"|
+|                  ""|      "0.382673486267246"|
+|        "Afganistán"|                       ""|
+|                  ""|      "0.044079287561986"|
+|            "Angola"|     "0.0393356914051387"|
+|           "Albania"|       "1.01241186523618"|
+|           "Andorra"|                       ""|
+|    "El mundo árabe"|       "2.36201379095719"|
+|"Emiratos Árabes ...|       "4.89745309341282"|
+|         "Argentina"|      "0.331124392177601"|
+|           "Armenia"|      "0.254926088328306"|
+|   "Samoa Americana"|                       ""|
+| "Antigua y Barbuda"|      "0.367859199505045"|
+|         "Australia"|       "7.34524353082055"|
+|           "Austria"|       "1.76193442033217"|
+|        "Azerbaiyán"|      "0.218519892485559"|
+|           "Burundi"|     "0.0587924632963684"|
+|           "Bélgica"|       "4.56219027177104"|
+|             "Benin"|      "0.267251540137733"|
+|      "Burkina Faso"|      "0.125024550228454"|
++--------------------+-------------------------+
+only showing top 20 rows
+[2024-11-02T03:43:42.078+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T03:43:42.094+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T03:43:42.095+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T034323, end_date=20241102T034342
+[2024-11-02T03:43:42.168+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T03:43:42.190+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T03:43:42.192+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

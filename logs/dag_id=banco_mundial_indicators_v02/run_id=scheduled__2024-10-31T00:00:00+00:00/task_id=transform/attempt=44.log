@@ -1,0 +1,123 @@
+[2024-11-02T23:27:58.522+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T23:27:58.540+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T23:27:58.551+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T23:27:58.551+0000] {taskinstance.py:2865} INFO - Starting attempt 44 of 49
+[2024-11-02T23:27:58.567+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T23:27:58.575+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '519', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpm4zl0x2c']
+[2024-11-02T23:27:58.578+0000] {standard_task_runner.py:105} INFO - Job 519: Subtask transform
+[2024-11-02T23:27:58.580+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=6672) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T23:27:58.581+0000] {standard_task_runner.py:72} INFO - Started process 6673 to run task
+[2024-11-02T23:27:58.626+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T23:27:58.861+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='44' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T23:27:58.862+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T23:28:15.625+0000] {logging_mixin.py:190} INFO - +--------------------+-------------+
+|        Country Name|     pbi 2023|
++--------------------+-------------+
+|               Aruba|          0.0|
+|                    | 1.2361631E12|
+|          Afganistán|          0.0|
+|                    | 7.9658615E11|
+|              Angola| 8.4722958E10|
+|             Albania|2.29776773E10|
+|             Andorra|  3.7276736E9|
+|      El mundo árabe|3.49151691E12|
+|Emiratos Árabes U...|5.04173462E11|
+|           Argentina|  6.405914E11|
+|             Armenia|2.42121339E10|
+|     Samoa Americana|          0.0|
+|   Antigua y Barbuda| 2.03308518E9|
+|           Australia|1.72382722E12|
+|             Austria|5.16034134E11|
+|          Azerbaiyán| 7.2356176E10|
+|             Burundi| 2.64216166E9|
+|             Bélgica| 6.3221655E11|
+|               Benin|1.96732846E10|
+|        Burkina Faso|2.03246182E10|
+|          Bangladesh|4.37415346E11|
+|            Bulgaria|1.01584388E11|
+|             Bahrein| 4.3205001E10|
+|             Bahamas|1.43384996E10|
+|Bosnia y Herzegovina| 2.7054889E10|
+|             Belarús| 7.1857381E10|
+|              Belice|  3.2814999E9|
+|            Bermudas|          0.0|
+|             Bolivia| 4.5849833E10|
+|              Brasil|2.17366567E12|
+|            Barbados|  6.3935642E9|
+|   Brunei Darussalam|1.51282934E10|
+|              Bhután|          0.0|
+|            Botswana|1.93957642E10|
+|República Centroa...|  2.5554921E9|
+|              Canadá|2.14008555E12|
+|Europa Central y ...|2.25297092E12|
+|               Suiza| 8.8494041E11|
+|     Islas del Canal|          0.0|
+|               Chile|3.35533343E11|
+|               China|1.77947814E13|
+|       Côte d'Ivoire| 7.8788829E10|
+|             Camerún| 4.7945511E10|
+|Congo, República ...| 6.6383286E10|
+|Congo, República del|1.53210563E10|
+|            Colombia|3.63540152E11|
+|             Comoras| 1.35238093E9|
+|          Cabo Verde| 2.58725197E9|
+|          Costa Rica| 8.6497944E10|
+|Estados pequeos d...| 5.3252637E10|
+|                Cuba|          0.0|
+|             Curacao|          0.0|
+|        Islas Caimán|          0.0|
+|              Chipre|3.22296218E10|
+|     República Checa|3.30858332E11|
+|            Alemania|  4.456081E12|
+|            Djibouti| 4.09853056E9|
+|            Dominica|  6.5399258E8|
+|           Dinamarca|4.04198752E11|
+|República Dominicana|1.21444278E11|
+|             Argelia|2.39899492E11|
+|Asia oriental y e...|2.11502477E13|
+|inicial del divid...|1.48478236E13|
+|Asia oriental y e...|3.07756595E13|
+|Europa y Asia cen...|2.09834974E12|
+|Europa y Asia cen...|2.72406287E13|
+|             Ecuador|1.18844826E11|
+|Egipto, República...|3.95926077E11|
+|       Zona del Euro|1.55448582E13|
+|             Eritrea|          0.0|
+|              España|1.58069477E12|
+|             Estonia| 4.0744849E10|
+|             Etiopía|1.63697934E11|
+|       Unión Europea|1.83493879E13|
+|Frágiles y situac...|1.90680112E12|
+|           Finlandia|3.00187189E11|
+|                Fiji|  5.4947973E9|
+|             Francia|3.03090421E12|
+|         Islas Feroe|          0.0|
+|Micronesia (Estad...|        4.6E8|
+|               Gabón|2.05161349E10|
+|         Reino Unido|3.34003228E12|
+|             Georgia|3.05355305E10|
+|               Ghana| 7.6370395E10|
+|           Gibraltar|          0.0|
+|              Guinea|2.36122952E10|
+|              Gambia| 2.33990426E9|
+|       Guinea-Bissau| 1.96646144E9|
+|   Guinea Ecuatorial|1.21169224E10|
+|              Grecia|2.38206321E11|
+|             Granada| 1.32033421E9|
+|         Groenlandia|          0.0|
+|           Guatemala|1.02050472E11|
+|                Guam|          0.0|
+|              Guyana| 1.6786302E10|
+|        Ingreso alto| 6.7653742E13|
+|Hong Kong, Región...|3.82054564E11|
+|            Honduras|  3.440051E10|
+|Países pobres muy...|1.13047214E12|
+|             Croacia| 8.2688844E10|
++--------------------+-------------+
+only showing top 100 rows
+[2024-11-02T23:28:16.361+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T23:28:16.375+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T23:28:16.376+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T232758, end_date=20241102T232816
+[2024-11-02T23:28:16.443+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T23:28:16.467+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T23:28:16.468+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,123 @@
+[2024-11-02T23:40:09.403+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T23:40:09.422+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T23:40:09.432+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T23:40:09.432+0000] {taskinstance.py:2865} INFO - Starting attempt 46 of 51
+[2024-11-02T23:40:09.448+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T23:40:09.458+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '523', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpcdebm90f']
+[2024-11-02T23:40:09.461+0000] {standard_task_runner.py:105} INFO - Job 523: Subtask transform
+[2024-11-02T23:40:09.463+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8134) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T23:40:09.464+0000] {standard_task_runner.py:72} INFO - Started process 8135 to run task
+[2024-11-02T23:40:09.510+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T23:40:09.742+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='46' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T23:40:09.743+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T23:40:32.963+0000] {logging_mixin.py:190} INFO - +--------------------+------------------+-------------+
+|        Country Name|pbi_percapita 2023|     pbi 2023|
++--------------------+------------------+-------------+
+|       Côte d'Ivoire|         2728.8032| 7.8788829E10|
+|América Latina y ...|         10070.443| 6.0505808E12|
+|              Canadá|           53371.7|2.14008555E12|
+|               Suiza|          99994.94| 8.8494041E11|
+|          Cabo Verde|           4321.58| 2.58725197E9|
+|            Kiribati|         2089.9102| 2.79034368E8|
+|              Guyana|           20626.2| 1.6786302E10|
+|             Eritrea|               0.0|          0.0|
+|             Croacia|         21459.785| 8.2688844E10|
+|            Djibouti|          3606.417| 4.09853056E9|
+|              Italia|         38373.168|2.25485128E12|
+|                Fiji|          5868.159|  5.4947973E9|
+|             Francia|         44460.816|3.03090421E12|
+|     República Checa|         30427.424|3.30858332E11|
+|              España|         32676.984|1.58069477E12|
+|República Democrá...|         2075.4014| 1.5843156E10|
+|Asia oriental y e...|         12927.684|3.07756595E13|
+|                Iraq|         5512.4756|2.50842776E11|
+|   Guinea Ecuatorial|         7066.6167|1.21169224E10|
+|      No clasificado|               0.0|          0.0|
+|             Belarús|          7829.053| 7.1857381E10|
+|              Bhután|               0.0|          0.0|
+|      El mundo árabe|          7377.399|3.49151691E12|
+|               Haití|         1693.0687|1.98508298E10|
+|Micronesia (Estad...|         3992.2239|        4.6E8|
+| Corea, República de|          33121.37| 1.7127928E12|
+|       Zona del Euro|         44368.574|1.55448582E13|
+|            Dominica|          8953.896|  6.5399258E8|
+|Estados pequeos d...|         16810.936| 5.3252637E10|
+|           Argentina|         13730.515|  6.405914E11|
+|            Jordania|          4482.086| 5.0813641E10|
+|              Angola|         2309.5217| 8.4722958E10|
+|           Finlandia|          53755.91|3.00187189E11|
+|             Ecuador|         6533.3516|1.18844826E11|
+|          Afganistán|               0.0|          0.0|
+|   Antigua y Barbuda|         21560.215| 2.03308518E9|
+|           Kazajstán|         13136.623|2.61421122E11|
+|             Albania|          8367.775|2.29776773E10|
+|               Ghana|          2238.158| 7.6370395E10|
+|   Brunei Darussalam|         33430.918|1.51282934E10|
+|             Bélgica|         53475.293| 6.3221655E11|
+|               Benin|         1434.6628|1.96732846E10|
+|             Bahamas|         34749.637|1.43384996E10|
+|               China|         12614.061|1.77947814E13|
+|             Curacao|               0.0|          0.0|
+|               India|         2484.8455|3.54991892E12|
+|         Islas Feroe|               0.0|          0.0|
+|              Kuwait|          37533.22|1.61772225E11|
+|Congo, República ...|           649.144| 6.6383286E10|
+|              Chipre|          34701.44|3.22296218E10|
+|       BIRF y la AIF|          6094.024| 4.1559723E13|
+|               Chile|         17093.242|3.35533343E11|
+|            Alemania|         52745.754|  4.456081E12|
+|             Burundi|         199.58076| 2.64216166E9|
+|              Belice|          7987.586|  3.2814999E9|
+|             Andorra|         46544.723|  3.7276736E9|
+|             Bolivia|         3700.9783| 4.5849833E10|
+|Hong Kong, Región...|          50696.59|3.82054564E11|
+|Europa y Asia cen...|         29483.441|2.72406287E13|
+|        Ingreso alto|          48220.03| 6.7653742E13|
+|Emiratos Árabes U...|          52976.81|5.04173462E11|
+|                Cuba|               0.0|          0.0|
+|             Comoras|         1587.1619| 1.35238093E9|
+|inicial del divid...|         4258.9175|1.48478236E13|
+|          Bangladesh|           2529.08|4.37415346E11|
+|            Barbados|         22672.615|  6.3935642E9|
+|             Etiopía|          1293.778|1.63697934E11|
+|             Granada|        10463.6455| 1.32033421E9|
+|República Centroa...|          445.0282|  2.5554921E9|
+|     total de la AIF|         1502.1178|2.82804093E12|
+|              Grecia|         22990.014|2.38206321E11|
+| Saint Kitts y Nevis|         22553.305| 1.07703309E9|
+|             Bahrein|         29084.307| 4.3205001E10|
+|Congo, República del|         2508.8235|1.53210563E10|
+|              Israel|         52261.676|5.09901505E11|
+|            Sólo AIF|         1417.3486|1.78607096E12|
+|           Gibraltar|               0.0|          0.0|
+|República Dominicana|         10716.014|1.21444278E11|
+|             Camerún|         1673.6489| 4.7945511E10|
+|               Aruba|               0.0|          0.0|
+|             Estonia|          29823.75| 4.0744849E10|
+|             Georgia|         8120.3633|3.05355305E10|
+|           Sólo BIRF|         7845.3853| 3.8733043E13|
+|         Isla de Man|               0.0|          0.0|
+|           Indonesia|           4940.55|1.37117119E12|
+|           Guatemala|         5797.5215|1.02050472E11|
+|                Guam|               0.0|          0.0|
+|            Bermudas|               0.0|          0.0|
+|             Armenia|          8715.766|2.42121339E10|
+|             Liberia|          799.5014|  4.3320003E9|
+|            Honduras|          3247.231|  3.440051E10|
+|    mezcla de la AIF|         1676.9896|1.04401522E12|
+|Europa y Asia cen...|          8479.057|2.09834974E12|
+|Frágiles y situac...|         1828.7084|1.90680112E12|
+|Países pobres muy...|         1245.0197|1.13047214E12|
+|              Líbano|               0.0|          0.0|
+|        Islas Caimán|               0.0|          0.0|
+|             Jamaica|            6874.2|1.94233549E10|
+|            Islandia|         78811.055| 3.1020032E10|
+|              Guinea|         1663.9379|2.36122952E10|
++--------------------+------------------+-------------+
+only showing top 100 rows
+[2024-11-02T23:40:33.753+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T23:40:33.765+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T23:40:33.766+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T234009, end_date=20241102T234033
+[2024-11-02T23:40:33.829+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T23:40:33.856+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T23:40:33.858+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

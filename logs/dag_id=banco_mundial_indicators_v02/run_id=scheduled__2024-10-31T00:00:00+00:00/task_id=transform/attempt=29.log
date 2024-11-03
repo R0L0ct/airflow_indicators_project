@@ -1,0 +1,118 @@
+[2024-11-02T05:42:50.285+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T05:42:50.305+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T05:42:50.315+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T05:42:50.315+0000] {taskinstance.py:2865} INFO - Starting attempt 29 of 34
+[2024-11-02T05:42:50.332+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T05:42:50.341+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=26765) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T05:42:50.342+0000] {standard_task_runner.py:72} INFO - Started process 26766 to run task
+[2024-11-02T05:42:50.341+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '487', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpvrkw1qjh']
+[2024-11-02T05:42:50.343+0000] {standard_task_runner.py:105} INFO - Job 487: Subtask transform
+[2024-11-02T05:42:50.415+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T05:42:50.692+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='29' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T05:42:50.693+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T05:43:15.814+0000] {logging_mixin.py:190} INFO - +--------------------+-------------+
+|        Country Name|     pbi 2023|
++--------------------+-------------+
+|               Aruba|         NULL|
+|                    | 1.2361631E12|
+|          Afganistán|         NULL|
+|                    | 7.9658615E11|
+|              Angola| 8.4722958E10|
+|             Albania|2.29776773E10|
+|             Andorra|  3.7276736E9|
+|      El mundo árabe|3.49151691E12|
+|Emiratos Árabes U...|5.04173462E11|
+|           Argentina|  6.405914E11|
+|             Armenia|2.42121339E10|
+|     Samoa Americana|         NULL|
+|   Antigua y Barbuda| 2.03308518E9|
+|           Australia|1.72382722E12|
+|             Austria|5.16034134E11|
+|          Azerbaiyán| 7.2356176E10|
+|             Burundi| 2.64216166E9|
+|             Bélgica| 6.3221655E11|
+|               Benin|1.96732846E10|
+|        Burkina Faso|2.03246182E10|
++--------------------+-------------+
+only showing top 20 rows
+[2024-11-02T05:43:16.218+0000] {logging_mixin.py:190} INFO - +--------------------+------------------+
+|        Country Name|pbi_percapita 2023|
++--------------------+------------------+
+|               Aruba|              NULL|
+|                    |          1672.506|
+|          Afganistán|              NULL|
+|                    |         1584.3333|
+|              Angola|         2309.5217|
+|             Albania|          8367.775|
+|             Andorra|         46544.723|
+|      El mundo árabe|          7377.399|
+|Emiratos Árabes U...|          52976.81|
+|           Argentina|         13730.515|
+|             Armenia|          8715.766|
+|     Samoa Americana|              NULL|
+|   Antigua y Barbuda|         21560.215|
+|           Australia|         64711.766|
+|             Austria|          56505.97|
+|          Azerbaiyán|         7155.0835|
+|             Burundi|         199.58076|
+|             Bélgica|         53475.293|
+|               Benin|         1434.6628|
+|        Burkina Faso|          874.1213|
++--------------------+------------------+
+only showing top 20 rows
+[2024-11-02T05:43:16.733+0000] {logging_mixin.py:190} INFO - +--------------------+-------------------------+
+|        Country Name|inversion_extranjera 2023|
++--------------------+-------------------------+
+|               Aruba|                 3.482826|
+|                    |               0.38267347|
+|          Afganistán|                     NULL|
+|                    |               0.04407929|
+|              Angola|               0.03933569|
+|             Albania|                1.0124118|
+|             Andorra|                     NULL|
+|      El mundo árabe|                2.3620138|
+|Emiratos Árabes U...|                4.8974533|
+|           Argentina|                0.3311244|
+|             Armenia|                0.2549261|
+|     Samoa Americana|                     NULL|
+|   Antigua y Barbuda|               0.36785918|
+|           Australia|                7.3452435|
+|             Austria|                1.7619344|
+|          Azerbaiyán|                0.2185199|
+|             Burundi|              0.058792464|
+|             Bélgica|                  4.56219|
+|               Benin|               0.26725155|
+|        Burkina Faso|               0.12502456|
++--------------------+-------------------------+
+only showing top 20 rows
+[2024-11-02T05:43:17.309+0000] {logging_mixin.py:190} INFO - +--------------------+--------------------+
+|        Country Name|poblacion_total 2023|
++--------------------+--------------------+
+|               Aruba|            106445.0|
+|                    |         7.2085914E8|
+|          Afganistán|         4.1128772E7|
+|                    |         4.9033088E8|
+|              Angola|         3.5588988E7|
+|             Albania|           2777689.0|
+|             Andorra|             79824.0|
+|      El mundo árabe|        4.64684928E8|
+|Emiratos Árabes U...|           9441129.0|
+|           Argentina|         4.6234832E7|
+|             Armenia|           2780469.0|
+|     Samoa Americana|             44273.0|
+|   Antigua y Barbuda|             93763.0|
+|           Australia|           2.60144E7|
+|             Austria|           9041851.0|
+|          Azerbaiyán|         1.0141756E7|
+|             Burundi|         1.2889576E7|
+|             Bélgica|         1.1685814E7|
+|               Benin|         1.3352864E7|
+|        Burkina Faso|         2.2673762E7|
++--------------------+--------------------+
+only showing top 20 rows
+[2024-11-02T05:43:18.315+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T05:43:18.360+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T05:43:18.361+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T054250, end_date=20241102T054318
+[2024-11-02T05:43:18.414+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T05:43:18.460+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T05:43:18.464+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

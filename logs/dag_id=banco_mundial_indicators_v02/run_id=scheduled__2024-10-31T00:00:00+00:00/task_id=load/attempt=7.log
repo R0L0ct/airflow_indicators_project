@@ -1,0 +1,17 @@
+[2024-11-02T02:50:03.381+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T02:50:03.409+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.load scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T02:50:03.425+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.load scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T02:50:03.426+0000] {taskinstance.py:2865} INFO - Starting attempt 7 of 12
+[2024-11-02T02:50:03.452+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load> on 2024-10-31 00:00:00+00:00
+[2024-11-02T02:50:03.464+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'load', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '444', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpr7el2duo']
+[2024-11-02T02:50:03.468+0000] {standard_task_runner.py:105} INFO - Job 444: Subtask load
+[2024-11-02T02:50:03.476+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=9045) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T02:50:03.477+0000] {standard_task_runner.py:72} INFO - Started process 9046 to run task
+[2024-11-02T02:50:03.530+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.load scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T02:50:03.767+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T02:50:03.768+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T02:50:09.472+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T02:50:09.488+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T02:50:09.489+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=load, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T025003, end_date=20241102T025009
+[2024-11-02T02:50:09.539+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T02:50:09.556+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

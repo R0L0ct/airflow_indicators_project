@@ -8174,3 +8174,941 @@
 [2024-10-30T21:12:13.519+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:12:13.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-30T21:12:13.549+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:12:13.549+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
 [2024-10-30T21:12:13.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.202 seconds
+[2024-10-30T21:12:43.791+0000] {processor.py:186} INFO - Started process (PID=3692) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:12:43.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:12:43.794+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:12:43.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:12:43.897+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:12:43.923+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:12:43.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:12:43.954+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:12:43.953+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:12:43.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.189 seconds
+[2024-10-30T21:13:14.283+0000] {processor.py:186} INFO - Started process (PID=3713) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:14.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:13:14.286+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:14.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:14.401+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:14.429+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:14.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:13:14.459+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:14.459+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:13:14.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.203 seconds
+[2024-10-30T21:13:44.833+0000] {processor.py:186} INFO - Started process (PID=3734) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:44.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:13:44.836+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:44.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:44.943+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:13:44.971+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:44.971+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:13:45.002+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:13:45.002+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:13:45.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.197 seconds
+[2024-10-30T21:14:15.226+0000] {processor.py:186} INFO - Started process (PID=3755) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:15.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:14:15.230+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:15.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:15.331+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:15.357+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:15.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:14:15.385+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:15.385+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:14:15.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.187 seconds
+[2024-10-30T21:14:45.737+0000] {processor.py:186} INFO - Started process (PID=3776) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:45.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:14:45.741+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:45.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:45.854+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:14:45.885+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:45.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:14:45.916+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:14:45.916+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:14:45.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.207 seconds
+[2024-10-30T21:15:16.164+0000] {processor.py:186} INFO - Started process (PID=3797) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:16.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:15:16.168+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:16.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:16.270+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:16.298+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:16.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:15:16.329+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:16.328+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:15:16.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.193 seconds
+[2024-10-30T21:15:46.604+0000] {processor.py:186} INFO - Started process (PID=3818) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:46.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:15:46.608+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:46.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:46.708+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:15:46.735+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:46.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:15:46.766+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:15:46.766+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:15:46.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2024-10-30T21:16:17.057+0000] {processor.py:186} INFO - Started process (PID=3839) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:17.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:16:17.060+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:17.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:17.174+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:17.201+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:17.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:16:17.233+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:17.233+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:16:17.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.205 seconds
+[2024-10-30T21:16:47.516+0000] {processor.py:186} INFO - Started process (PID=3858) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:47.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:16:47.521+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:47.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:47.662+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:16:47.687+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:47.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:16:47.715+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:16:47.714+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:16:47.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.226 seconds
+[2024-10-30T21:17:18.017+0000] {processor.py:186} INFO - Started process (PID=3879) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:18.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:17:18.022+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:18.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:18.196+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:18.229+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:18.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:17:18.258+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:18.258+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:17:18.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.273 seconds
+[2024-10-30T21:17:48.671+0000] {processor.py:186} INFO - Started process (PID=3902) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:48.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:17:48.676+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:48.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:48.811+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:17:48.841+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:48.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:17:48.876+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:17:48.876+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:17:48.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.236 seconds
+[2024-10-30T21:18:19.124+0000] {processor.py:186} INFO - Started process (PID=3923) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:19.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:18:19.127+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:19.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:19.229+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:19.256+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:19.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:18:19.290+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:19.290+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:18:19.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.195 seconds
+[2024-10-30T21:18:49.609+0000] {processor.py:186} INFO - Started process (PID=3942) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:49.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:18:49.613+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:49.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:49.734+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:18:49.770+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:49.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:18:49.804+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:18:49.804+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:18:49.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.224 seconds
+[2024-10-30T21:19:20.123+0000] {processor.py:186} INFO - Started process (PID=3965) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:20.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:19:20.125+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:20.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:20.226+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:20.252+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:20.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:19:20.280+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:20.280+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:19:20.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.184 seconds
+[2024-10-30T21:19:50.606+0000] {processor.py:186} INFO - Started process (PID=3986) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:50.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:19:50.609+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:50.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:50.710+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:19:50.739+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:50.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:19:50.768+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:19:50.768+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:19:50.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.191 seconds
+[2024-10-30T21:20:21.090+0000] {processor.py:186} INFO - Started process (PID=4007) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:21.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:20:21.093+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:21.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:21.207+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:21.236+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:21.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:20:21.271+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:21.270+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:20:21.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.216 seconds
+[2024-10-30T21:20:51.597+0000] {processor.py:186} INFO - Started process (PID=4028) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:51.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:20:51.600+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:51.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:51.702+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:20:51.728+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:51.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:20:51.759+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:20:51.758+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:20:51.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.188 seconds
+[2024-10-30T21:21:22.056+0000] {processor.py:186} INFO - Started process (PID=4049) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:22.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:21:22.059+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:22.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:22.161+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:22.188+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:22.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:21:22.218+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:22.218+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:21:22.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.193 seconds
+[2024-10-30T21:21:52.479+0000] {processor.py:186} INFO - Started process (PID=4070) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:52.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:21:52.482+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:52.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:52.587+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:21:52.613+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:52.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:21:52.642+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:21:52.642+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:21:52.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.194 seconds
+[2024-10-30T21:22:23.064+0000] {processor.py:186} INFO - Started process (PID=4091) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:23.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:22:23.069+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:23.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:23.214+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:23.239+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:23.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:22:23.271+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:23.270+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:22:23.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.239 seconds
+[2024-10-30T21:22:53.538+0000] {processor.py:186} INFO - Started process (PID=4112) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:53.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:22:53.544+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:53.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:53.653+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:22:53.680+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:53.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:22:53.710+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:22:53.710+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:22:53.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.205 seconds
+[2024-10-30T21:23:23.987+0000] {processor.py:186} INFO - Started process (PID=4133) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:23.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:23:23.990+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:23.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:24.092+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:24.118+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:24.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:23:24.147+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:24.146+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:23:24.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.185 seconds
+[2024-10-30T21:23:54.435+0000] {processor.py:186} INFO - Started process (PID=4154) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:54.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:23:54.438+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:54.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:54.546+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:23:54.575+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:54.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:23:54.606+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:23:54.605+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:23:54.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.200 seconds
+[2024-10-30T21:24:24.891+0000] {processor.py:186} INFO - Started process (PID=4175) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:24.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:24:24.894+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:24.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:24.995+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:25.024+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:25.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:24:25.052+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:25.051+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:24:25.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.189 seconds
+[2024-10-30T21:24:55.327+0000] {processor.py:186} INFO - Started process (PID=4196) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:55.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:24:55.329+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:55.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:55.436+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:24:55.462+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:55.462+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:24:55.490+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:24:55.490+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:24:55.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.189 seconds
+[2024-10-30T21:25:25.799+0000] {processor.py:186} INFO - Started process (PID=4217) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:25.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:25:25.802+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:25.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:25.903+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:25.928+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:25.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:25:25.956+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:25.955+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:25:25.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.183 seconds
+[2024-10-30T21:25:56.366+0000] {processor.py:186} INFO - Started process (PID=4238) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:56.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:25:56.369+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:56.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:56.479+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:25:56.504+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:56.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:25:56.535+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:25:56.535+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:25:56.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.205 seconds
+[2024-10-30T21:26:27.054+0000] {processor.py:186} INFO - Started process (PID=4257) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:27.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:26:27.064+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:27.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:27.260+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:27.303+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:27.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:26:27.341+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:27.340+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:26:27.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.339 seconds
+[2024-10-30T21:26:57.769+0000] {processor.py:186} INFO - Started process (PID=4280) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:57.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:26:57.775+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:57.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:57.903+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:26:57.931+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:57.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:26:57.959+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:26:57.959+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:26:57.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.221 seconds
+[2024-10-30T21:27:28.249+0000] {processor.py:186} INFO - Started process (PID=4299) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:28.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:27:28.254+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:28.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:28.407+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:28.443+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:28.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:27:28.480+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:28.480+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:27:28.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.264 seconds
+[2024-10-30T21:27:58.833+0000] {processor.py:186} INFO - Started process (PID=4320) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:58.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:27:58.837+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:58.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:58.958+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:27:58.983+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:58.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:27:59.012+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:27:59.012+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:27:59.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.217 seconds
+[2024-10-30T21:28:29.293+0000] {processor.py:186} INFO - Started process (PID=4343) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:29.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:28:29.296+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:29.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:29.398+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:29.423+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:29.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:28:29.451+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:29.451+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:28:29.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.185 seconds
+[2024-10-30T21:28:59.732+0000] {processor.py:186} INFO - Started process (PID=4364) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:59.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:28:59.735+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:59.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:59.840+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:28:59.866+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:59.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:28:59.899+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:28:59.899+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:28:59.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.196 seconds
+[2024-10-30T21:29:30.203+0000] {processor.py:186} INFO - Started process (PID=4385) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:29:30.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:29:30.207+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:29:30.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:29:30.309+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:29:30.337+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:29:30.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:29:30.369+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:29:30.368+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:29:30.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.194 seconds
+[2024-10-30T21:30:00.657+0000] {processor.py:186} INFO - Started process (PID=4406) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:00.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:30:00.661+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:00.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:00.762+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:00.791+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:00.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:30:00.820+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:00.820+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:30:00.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.191 seconds
+[2024-10-30T21:30:31.142+0000] {processor.py:186} INFO - Started process (PID=4427) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:31.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:30:31.145+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:31.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:31.246+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:30:31.278+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:31.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:30:31.312+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:30:31.312+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:30:31.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.205 seconds
+[2024-10-30T21:31:01.588+0000] {processor.py:186} INFO - Started process (PID=4448) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:01.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:31:01.592+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:01.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:01.696+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:01.722+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:01.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:31:01.751+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:01.750+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:31:01.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.194 seconds
+[2024-10-30T21:31:32.041+0000] {processor.py:186} INFO - Started process (PID=4469) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:32.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:31:32.044+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:32.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:32.144+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:31:32.173+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:32.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:31:32.203+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:31:32.203+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:31:32.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.190 seconds
+[2024-10-30T21:32:02.481+0000] {processor.py:186} INFO - Started process (PID=4490) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:02.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:32:02.484+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:02.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:02.594+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:02.620+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:02.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:32:02.649+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:02.648+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:32:02.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.195 seconds
+[2024-10-30T21:32:32.939+0000] {processor.py:186} INFO - Started process (PID=4511) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:32.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:32:32.942+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:32.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:33.049+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:32:33.076+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:33.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:32:33.104+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:32:33.104+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:32:33.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.191 seconds
+[2024-10-30T21:33:03.390+0000] {processor.py:186} INFO - Started process (PID=4530) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:03.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:33:03.394+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:03.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:03.498+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:03.526+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:03.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:33:03.555+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:03.554+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:33:03.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2024-10-30T21:33:33.924+0000] {processor.py:186} INFO - Started process (PID=4551) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:33.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:33:33.928+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:33.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:34.038+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:33:34.072+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:34.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:33:34.115+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:33:34.115+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:33:34.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.224 seconds
+[2024-10-30T21:34:04.401+0000] {processor.py:186} INFO - Started process (PID=4574) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:04.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:34:04.405+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:04.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:04.507+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:04.532+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:04.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:34:04.560+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:04.559+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:34:04.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.188 seconds
+[2024-10-30T21:34:34.875+0000] {processor.py:186} INFO - Started process (PID=4595) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:34.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:34:34.878+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:34.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:34.978+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:34:35.004+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:35.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:34:35.034+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:34:35.034+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:34:35.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.187 seconds
+[2024-10-30T21:35:05.358+0000] {processor.py:186} INFO - Started process (PID=4616) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:05.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:35:05.361+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:05.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:05.464+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:05.490+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:05.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:35:05.520+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:05.520+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:35:05.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.193 seconds
+[2024-10-30T21:35:35.919+0000] {processor.py:186} INFO - Started process (PID=4637) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:35.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:35:35.923+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:35.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:36.030+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:35:36.059+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:36.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:35:36.086+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:35:36.086+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:35:36.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.197 seconds
+[2024-10-30T21:36:06.336+0000] {processor.py:186} INFO - Started process (PID=4658) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:06.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:36:06.339+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:06.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:06.443+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:06.469+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:06.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:36:06.499+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:06.498+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:36:06.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2024-10-30T21:36:36.807+0000] {processor.py:186} INFO - Started process (PID=4679) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:36.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:36:36.809+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:36.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:36.919+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:36:36.946+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:36.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:36:36.979+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:36:36.979+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:36:37.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.203 seconds
+[2024-10-30T21:37:07.251+0000] {processor.py:186} INFO - Started process (PID=4700) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:07.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:37:07.254+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:07.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:07.369+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:07.399+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:07.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:37:07.435+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:07.435+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:37:07.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.215 seconds
+[2024-10-30T21:37:37.716+0000] {processor.py:186} INFO - Started process (PID=4721) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:37.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:37:37.720+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:37.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:37.841+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:37:37.872+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:37.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:37:37.905+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:37:37.905+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:37:37.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.222 seconds
+[2024-10-30T21:38:08.208+0000] {processor.py:186} INFO - Started process (PID=4742) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:08.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:38:08.211+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:08.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:08.312+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:08.340+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:08.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:38:08.370+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:08.370+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:38:08.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.190 seconds
+[2024-10-30T21:38:38.660+0000] {processor.py:186} INFO - Started process (PID=4761) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:38.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:38:38.665+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:38.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:38.816+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:38:38.843+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:38.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:38:38.874+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:38:38.874+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:38:38.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.240 seconds
+[2024-10-30T21:39:09.214+0000] {processor.py:186} INFO - Started process (PID=4782) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:09.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:39:09.218+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:09.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:09.332+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:09.368+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:09.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:39:09.413+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:09.413+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:39:09.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.236 seconds
+[2024-10-30T21:39:39.693+0000] {processor.py:186} INFO - Started process (PID=4805) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:39.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:39:39.696+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:39.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:39.799+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:39:39.825+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:39.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:39:39.855+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:39:39.855+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:39:39.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2024-10-30T21:40:10.176+0000] {processor.py:186} INFO - Started process (PID=4826) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:10.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:40:10.179+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:10.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:10.280+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:10.306+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:10.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:40:10.337+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:10.336+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:40:10.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.190 seconds
+[2024-10-30T21:40:40.726+0000] {processor.py:186} INFO - Started process (PID=4845) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:40.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:40:40.729+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:40.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:40.861+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:40:40.896+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:40.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:40:40.931+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:40:40.930+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:40:40.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.244 seconds
+[2024-10-30T21:41:11.167+0000] {processor.py:186} INFO - Started process (PID=4868) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:11.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:41:11.170+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:11.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:11.326+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:11.381+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:11.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:41:11.451+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:11.451+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:41:11.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.334 seconds
+[2024-10-30T21:41:41.645+0000] {processor.py:186} INFO - Started process (PID=4889) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:41.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:41:41.649+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:41.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:41.769+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:41:41.795+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:41.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:41:41.825+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:41:41.825+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:41:41.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.210 seconds
+[2024-10-30T21:42:12.127+0000] {processor.py:186} INFO - Started process (PID=4910) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:12.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:42:12.131+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:12.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:12.253+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:12.282+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:12.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:42:12.315+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:12.314+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:42:12.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.222 seconds
+[2024-10-30T21:42:42.669+0000] {processor.py:186} INFO - Started process (PID=4931) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:42.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:42:42.674+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:42.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:42.858+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:42:42.899+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:42.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:42:42.945+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:42:42.945+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:42:42.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.316 seconds
+[2024-10-30T21:43:13.141+0000] {processor.py:186} INFO - Started process (PID=4952) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:13.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:43:13.145+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:13.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:13.287+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:13.318+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:13.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:43:13.353+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:13.352+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:43:13.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.247 seconds
+[2024-10-30T21:43:43.835+0000] {processor.py:186} INFO - Started process (PID=4973) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:43.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:43:43.842+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:43.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:44.029+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:43:44.071+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:44.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:43:44.107+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:43:44.106+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:43:44.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.316 seconds
+[2024-10-30T21:44:14.283+0000] {processor.py:186} INFO - Started process (PID=4994) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:14.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:44:14.286+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:14.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:14.393+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:14.420+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:14.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:44:14.451+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:14.451+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:44:14.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.196 seconds
+[2024-10-30T21:44:44.711+0000] {processor.py:186} INFO - Started process (PID=5015) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:44.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:44:44.715+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:44.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:44.822+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:44:44.848+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:44.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:44:44.877+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:44:44.877+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:44:44.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.196 seconds
+[2024-10-30T21:45:15.392+0000] {processor.py:186} INFO - Started process (PID=5036) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:15.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:45:15.398+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:15.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:15.635+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:15.697+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:15.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:45:15.762+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:15.762+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:45:15.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.421 seconds
+[2024-10-30T21:45:46.841+0000] {processor.py:186} INFO - Started process (PID=5057) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:46.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:45:46.845+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:46.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:46.952+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:45:46.978+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:46.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:45:47.010+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:45:47.010+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:45:47.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.200 seconds
+[2024-10-30T21:46:17.221+0000] {processor.py:186} INFO - Started process (PID=5078) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:17.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:46:17.225+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:17.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:17.333+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:17.363+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:17.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:46:17.392+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:17.392+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:46:17.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.199 seconds
+[2024-10-30T21:46:47.746+0000] {processor.py:186} INFO - Started process (PID=5099) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:47.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:46:47.750+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:47.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:47.866+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:46:47.896+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:47.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:46:47.937+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:46:47.936+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:46:47.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.232 seconds
+[2024-10-30T21:47:18.258+0000] {processor.py:186} INFO - Started process (PID=5126) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:18.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:47:18.264+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:18.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:18.465+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:18.520+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:18.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:47:18.583+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:18.582+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:47:18.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.373 seconds
+[2024-10-30T21:47:48.774+0000] {processor.py:186} INFO - Started process (PID=5147) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:48.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:47:48.777+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:48.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:48.884+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:47:48.910+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:48.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:47:48.942+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:47:48.941+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:47:48.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.196 seconds
+[2024-10-30T21:48:19.485+0000] {processor.py:186} INFO - Started process (PID=5168) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:19.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:48:19.489+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:19.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:19.601+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:19.628+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:19.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:48:19.661+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:19.661+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:48:19.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.204 seconds
+[2024-10-30T21:48:49.899+0000] {processor.py:186} INFO - Started process (PID=5189) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:49.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:48:49.906+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:49.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:50.130+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:48:50.177+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:50.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:48:50.232+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:48:50.232+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:48:50.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.381 seconds
+[2024-10-30T21:49:20.583+0000] {processor.py:186} INFO - Started process (PID=5210) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:20.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:49:20.586+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:20.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:20.702+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:20.733+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:20.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:49:20.766+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:20.765+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:49:20.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.210 seconds
+[2024-10-30T21:49:51.089+0000] {processor.py:186} INFO - Started process (PID=5231) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:51.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:49:51.094+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:51.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:51.224+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:49:51.256+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:51.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:49:51.293+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:49:51.292+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:49:51.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.236 seconds
+[2024-10-30T21:50:21.612+0000] {processor.py:186} INFO - Started process (PID=5252) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:21.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:50:21.620+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:21.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:21.763+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:21.793+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:21.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:50:21.832+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:21.832+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:50:21.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.273 seconds
+[2024-10-30T21:50:52.083+0000] {processor.py:186} INFO - Started process (PID=5273) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:52.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:50:52.088+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:52.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:52.202+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:50:52.230+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:52.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:50:52.279+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:50:52.278+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:50:52.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.231 seconds
+[2024-10-30T21:51:22.667+0000] {processor.py:186} INFO - Started process (PID=5294) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:22.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:51:22.670+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:22.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:22.780+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:22.806+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:22.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:51:22.833+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:22.833+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:51:22.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.191 seconds
+[2024-10-30T21:51:53.170+0000] {processor.py:186} INFO - Started process (PID=5315) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:53.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:51:53.174+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:53.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:53.294+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:51:53.321+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:53.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:51:53.351+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:51:53.351+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:51:53.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.212 seconds
+[2024-10-30T21:52:23.590+0000] {processor.py:186} INFO - Started process (PID=5336) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:23.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:52:23.594+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:23.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:23.706+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:23.735+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:23.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:52:23.767+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:23.767+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:52:23.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.208 seconds
+[2024-10-30T21:52:54.094+0000] {processor.py:186} INFO - Started process (PID=5357) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:54.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:52:54.098+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:54.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:54.205+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:52:54.231+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:54.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:52:54.261+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:52:54.261+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:52:54.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.198 seconds
+[2024-10-30T21:53:24.626+0000] {processor.py:186} INFO - Started process (PID=5378) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:24.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:53:24.631+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:24.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:24.752+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:24.787+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:24.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:53:24.841+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:24.841+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:53:24.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.254 seconds
+[2024-10-30T21:53:55.233+0000] {processor.py:186} INFO - Started process (PID=5399) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:55.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:53:55.238+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:55.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:55.425+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:53:55.477+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:55.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:53:55.529+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:53:55.529+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:53:55.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.339 seconds
+[2024-10-30T21:54:25.816+0000] {processor.py:186} INFO - Started process (PID=5420) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:25.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:54:25.823+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:25.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:26.117+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:26.170+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:26.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:54:26.223+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:26.223+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:54:26.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.452 seconds
+[2024-10-30T21:54:56.352+0000] {processor.py:186} INFO - Started process (PID=5441) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:56.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:54:56.358+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:56.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:56.585+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:54:56.649+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:56.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:54:56.711+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:54:56.711+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:54:56.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.410 seconds
+[2024-10-30T21:55:26.812+0000] {processor.py:186} INFO - Started process (PID=5462) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:26.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:55:26.816+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:26.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:26.941+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:26.980+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:26.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:55:27.016+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:27.015+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:55:27.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.238 seconds
+[2024-10-30T21:55:57.256+0000] {processor.py:186} INFO - Started process (PID=5483) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:57.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:55:57.264+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:57.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:57.487+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:55:57.550+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:57.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:55:57.617+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:55:57.616+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:55:57.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.414 seconds
+[2024-10-30T21:56:27.891+0000] {processor.py:186} INFO - Started process (PID=5503) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:27.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:56:27.895+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:27.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:28.051+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:28.093+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:28.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:56:28.136+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:28.136+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:56:28.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.282 seconds
+[2024-10-30T21:56:58.591+0000] {processor.py:186} INFO - Started process (PID=5524) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:58.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:56:58.597+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:58.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:58.755+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:56:58.794+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:58.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:56:58.831+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:56:58.831+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:56:58.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.289 seconds
+[2024-10-30T21:57:29.339+0000] {processor.py:186} INFO - Started process (PID=5545) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:57:29.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:57:29.351+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:57:29.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:57:29.556+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:57:29.606+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:57:29.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:57:29.659+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:57:29.659+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:57:29.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.371 seconds
+[2024-10-30T21:58:00.134+0000] {processor.py:186} INFO - Started process (PID=5566) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:00.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:58:00.143+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:00.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:00.390+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:00.444+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:00.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:58:00.513+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:00.512+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:58:00.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.440 seconds
+[2024-10-30T21:58:30.669+0000] {processor.py:186} INFO - Started process (PID=5587) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:30.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:58:30.673+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:30.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:30.832+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:58:30.862+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:30.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:58:30.898+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:58:30.898+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:58:30.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.264 seconds
+[2024-10-30T21:59:01.162+0000] {processor.py:186} INFO - Started process (PID=5608) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:01.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:59:01.166+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:01.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:01.284+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:01.321+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:01.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:59:01.364+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:01.363+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:59:01.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.240 seconds
+[2024-10-30T21:59:31.604+0000] {processor.py:186} INFO - Started process (PID=5629) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:31.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T21:59:31.607+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:31.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:31.713+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T21:59:31.739+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:31.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T21:59:31.768+0000] {logging_mixin.py:190} INFO - [2024-10-30T21:59:31.768+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T21:59:31.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.194 seconds
+[2024-10-30T22:00:02.117+0000] {processor.py:186} INFO - Started process (PID=5650) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:02.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:00:02.121+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:02.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:02.226+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:02.253+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:02.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:00:02.281+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:02.280+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:00:02.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.196 seconds
+[2024-10-30T22:00:32.515+0000] {processor.py:186} INFO - Started process (PID=5671) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:32.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:00:32.519+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:32.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:32.628+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:00:32.656+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:32.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:00:32.686+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:00:32.685+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:00:32.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.202 seconds
+[2024-10-30T22:01:03.245+0000] {processor.py:186} INFO - Started process (PID=5692) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:03.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:01:03.251+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:03.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:03.436+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:03.472+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:03.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:01:03.522+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:03.521+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:01:03.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.325 seconds
+[2024-10-30T22:01:33.684+0000] {processor.py:186} INFO - Started process (PID=5713) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:33.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:01:33.687+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:33.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:33.790+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:01:33.815+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:33.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:01:33.846+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:01:33.846+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:01:33.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.191 seconds
+[2024-10-30T22:02:04.353+0000] {processor.py:186} INFO - Started process (PID=5734) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:04.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:02:04.359+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:04.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:04.587+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:04.660+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:04.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:02:04.727+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:04.726+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:02:04.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.425 seconds
+[2024-10-30T22:02:34.991+0000] {processor.py:186} INFO - Started process (PID=5755) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:34.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:02:34.995+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:34.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:35.117+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:02:35.147+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:35.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:02:35.183+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:02:35.183+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:02:35.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.224 seconds
+[2024-10-30T22:03:05.516+0000] {processor.py:186} INFO - Started process (PID=5776) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:05.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:03:05.520+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:05.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:05.626+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:05.653+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:05.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:03:05.681+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:05.680+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:03:05.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.195 seconds
+[2024-10-30T22:03:36.006+0000] {processor.py:186} INFO - Started process (PID=5797) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:36.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:03:36.009+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:36.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:36.112+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:03:36.140+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:36.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:03:36.168+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:03:36.167+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:03:36.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.195 seconds
+[2024-10-30T22:04:06.456+0000] {processor.py:186} INFO - Started process (PID=5818) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:06.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:04:06.460+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:06.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:06.564+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:06.590+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:06.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:04:06.619+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:06.618+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:04:06.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2024-10-30T22:04:37.090+0000] {processor.py:186} INFO - Started process (PID=5839) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:37.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:04:37.094+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:37.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:37.218+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:04:37.246+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:37.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:04:37.283+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:04:37.283+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:04:37.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.223 seconds
+[2024-10-30T22:05:07.619+0000] {processor.py:186} INFO - Started process (PID=5860) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:07.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:05:07.624+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:07.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:07.761+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:07.792+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:07.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:05:07.830+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:07.829+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:05:07.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.247 seconds
+[2024-10-30T22:05:38.242+0000] {processor.py:186} INFO - Started process (PID=5881) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:38.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:05:38.245+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:38.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:38.384+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:05:38.421+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:38.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:05:38.456+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:05:38.456+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:05:38.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.243 seconds
+[2024-10-30T22:06:08.764+0000] {processor.py:186} INFO - Started process (PID=5902) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:08.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:06:08.768+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:08.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:08.896+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:08.925+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:08.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:06:08.958+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:08.957+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:06:08.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.225 seconds
+[2024-10-30T22:06:39.225+0000] {processor.py:186} INFO - Started process (PID=5923) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:39.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:06:39.229+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:39.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:39.345+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:06:39.370+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:39.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:06:39.400+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:06:39.400+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:06:39.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.206 seconds
+[2024-10-30T22:07:09.648+0000] {processor.py:186} INFO - Started process (PID=5944) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:09.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:07:09.654+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:09.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:09.835+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:09.874+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:09.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:07:09.924+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:09.924+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:07:09.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.314 seconds
+[2024-10-30T22:07:40.312+0000] {processor.py:186} INFO - Started process (PID=5965) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:40.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:07:40.316+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:40.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:40.476+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:07:40.507+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:40.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:07:40.545+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:07:40.544+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:07:40.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.266 seconds
+[2024-10-30T22:08:10.758+0000] {processor.py:186} INFO - Started process (PID=5986) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:10.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:08:10.762+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:10.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:10.881+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:10.909+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:10.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:08:10.939+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:10.939+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:08:10.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.212 seconds
+[2024-10-30T22:08:41.190+0000] {processor.py:186} INFO - Started process (PID=6007) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:41.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:08:41.194+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:41.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:41.308+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:08:41.333+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:41.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:08:41.362+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:08:41.361+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:08:41.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.199 seconds
+[2024-10-30T22:09:11.581+0000] {processor.py:186} INFO - Started process (PID=6028) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:11.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:09:11.584+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:11.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:11.695+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:11.721+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:11.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:09:11.765+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:11.765+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:09:11.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.223 seconds
+[2024-10-30T22:09:41.995+0000] {processor.py:186} INFO - Started process (PID=6049) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:41.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:09:41.998+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:41.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:42.122+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:09:42.154+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:42.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:09:42.188+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:09:42.188+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:09:42.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.223 seconds
+[2024-10-30T22:10:12.414+0000] {processor.py:186} INFO - Started process (PID=6070) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:12.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:10:12.418+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:12.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:12.529+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:12.555+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:12.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:10:12.586+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:12.585+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:10:12.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.203 seconds
+[2024-10-30T22:10:43.055+0000] {processor.py:186} INFO - Started process (PID=6091) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:43.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:10:43.059+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:43.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:43.164+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:10:43.191+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:43.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:10:43.219+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:10:43.219+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:10:43.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.193 seconds
+[2024-10-30T22:11:13.545+0000] {processor.py:186} INFO - Started process (PID=6112) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:13.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:11:13.551+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:13.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:13.659+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:13.684+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:13.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:11:13.712+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:13.712+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:11:13.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.199 seconds
+[2024-10-30T22:11:44.001+0000] {processor.py:186} INFO - Started process (PID=6133) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:44.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:11:44.004+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:44.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:44.124+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:11:44.152+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:44.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:11:44.184+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:11:44.183+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:11:44.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.211 seconds
+[2024-10-30T22:13:13.272+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:13.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:13:13.277+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:13.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:13.389+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:13.414+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:13.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:13:13.441+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:13.441+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:13:13.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.195 seconds
+[2024-10-30T22:13:43.703+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:43.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:13:43.706+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:43.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:43.823+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:13:43.848+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:43.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:13:43.877+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:13:43.876+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:13:43.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.200 seconds
+[2024-10-30T22:14:14.460+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:14.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:14:14.463+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:14.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:14.564+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:14.590+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:14.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:14:14.617+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:14.617+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:14:14.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.310 seconds
+[2024-10-30T22:14:45.045+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:45.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:14:45.049+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:45.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:45.152+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:14:45.180+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:45.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:14:45.351+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:14:45.350+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:14:45.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.331 seconds
+[2024-10-30T22:15:15.623+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:15.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:15:15.626+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:15.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:15.727+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:15.753+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:15.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:15:15.904+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:15.904+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:15:15.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.308 seconds
+[2024-10-30T22:15:46.195+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:46.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:15:46.199+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:46.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:46.301+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:15:46.450+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:46.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:15:46.478+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:15:46.478+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:15:46.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.312 seconds
+[2024-10-30T22:16:16.794+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:16.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:16:16.798+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:16.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:17.025+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:17.047+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:17.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:16:17.072+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:17.072+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:16:17.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.304 seconds
+[2024-10-30T22:16:47.370+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:47.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:16:47.373+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:47.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:47.596+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:16:47.618+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:47.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:16:47.645+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:16:47.645+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:16:47.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.302 seconds
+[2024-10-30T22:17:17.933+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:17.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:17:17.936+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:17.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:18.160+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:18.184+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:18.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:17:18.210+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:18.210+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:17:18.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.306 seconds
+[2024-10-30T22:17:48.479+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:48.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:17:48.484+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:48.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:48.704+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:17:48.726+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:48.726+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:17:48.755+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:17:48.755+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:17:48.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.304 seconds
+[2024-10-30T22:18:19.026+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:19.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:18:19.030+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:19.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:19.250+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:19.274+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:19.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:18:19.306+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:19.306+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:18:19.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.306 seconds
+[2024-10-30T22:18:49.578+0000] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:49.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:18:49.582+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:49.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:49.807+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:18:49.835+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:49.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:18:49.863+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:18:49.862+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:18:49.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.311 seconds
+[2024-10-30T22:19:20.192+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:20.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:19:20.196+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:20.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:20.425+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:20.448+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:20.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:19:20.474+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:20.474+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:19:20.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.308 seconds
+[2024-10-30T22:19:50.885+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:50.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:19:50.888+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:50.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:51.114+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:19:51.138+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:51.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:19:51.164+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:19:51.164+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:19:51.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.305 seconds
+[2024-10-30T22:20:21.431+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:21.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:20:21.435+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:21.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:21.652+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:21.675+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:21.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:20:21.702+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:21.702+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:20:21.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.295 seconds
+[2024-10-30T22:20:51.979+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:51.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:20:51.983+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:51.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:52.201+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:20:52.224+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:52.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:20:52.249+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:20:52.249+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:20:52.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.296 seconds
+[2024-10-30T22:21:22.556+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/first_dag.py
+[2024-10-30T22:21:22.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2024-10-30T22:21:22.560+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:21:22.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:21:22.696+0000] {processor.py:925} INFO - DAG(s) 'indices_argentina_v08' retrieved from /opt/airflow/dags/first_dag.py
+[2024-10-30T22:21:22.736+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:21:22.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T22:21:22.781+0000] {logging_mixin.py:190} INFO - [2024-10-30T22:21:22.781+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_argentina_v08 to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-30T22:21:22.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/first_dag.py took 0.265 seconds

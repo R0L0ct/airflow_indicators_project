@@ -1,0 +1,43 @@
+[2024-11-02T05:36:25.608+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T05:36:25.626+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T05:36:25.635+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T05:36:25.635+0000] {taskinstance.py:2865} INFO - Starting attempt 27 of 32
+[2024-11-02T05:36:25.651+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T05:36:25.662+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=25564) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T05:36:25.664+0000] {standard_task_runner.py:72} INFO - Started process 25565 to run task
+[2024-11-02T05:36:25.662+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '483', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmpfv9j1ts0']
+[2024-11-02T05:36:25.665+0000] {standard_task_runner.py:105} INFO - Job 483: Subtask transform
+[2024-11-02T05:36:25.737+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T05:36:26.050+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='27' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T05:36:26.051+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T05:36:50.413+0000] {logging_mixin.py:190} INFO - +--------------------+-------------+
+|        Country Name|     pbi 2023|
++--------------------+-------------+
+|               Aruba|         NULL|
+|                    | 1.2361631E12|
+|          Afganistán|         NULL|
+|                    | 7.9658615E11|
+|              Angola| 8.4722958E10|
+|             Albania|2.29776773E10|
+|             Andorra|  3.7276736E9|
+|      El mundo árabe|3.49151691E12|
+|Emiratos Árabes U...|5.04173462E11|
+|           Argentina|  6.405914E11|
+|             Armenia|2.42121339E10|
+|     Samoa Americana|         NULL|
+|   Antigua y Barbuda| 2.03308518E9|
+|           Australia|1.72382722E12|
+|             Austria|5.16034134E11|
+|          Azerbaiyán| 7.2356176E10|
+|             Burundi| 2.64216166E9|
+|             Bélgica| 6.3221655E11|
+|               Benin|1.96732846E10|
+|        Burkina Faso|2.03246182E10|
++--------------------+-------------+
+only showing top 20 rows
+[2024-11-02T05:36:50.856+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T05:36:50.867+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T05:36:50.868+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T053625, end_date=20241102T053650
+[2024-11-02T05:36:50.940+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T05:36:50.968+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T05:36:50.970+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

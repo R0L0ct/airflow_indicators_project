@@ -1,0 +1,31 @@
+[2024-11-02T02:57:39.708+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-02T02:57:39.729+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T02:57:39.740+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [queued]>
+[2024-11-02T02:57:39.740+0000] {taskinstance.py:2865} INFO - Starting attempt 10 of 15
+[2024-11-02T02:57:39.757+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-10-31 00:00:00+00:00
+[2024-11-02T02:57:39.766+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'banco_mundial_indicators_v02', 'transform', 'scheduled__2024-10-31T00:00:00+00:00', '--job-id', '449', '--raw', '--subdir', 'DAGS_FOLDER/banco_mundial_indicators_dag.py', '--cfg-path', '/tmp/tmp2gccp3hw']
+[2024-11-02T02:57:39.768+0000] {standard_task_runner.py:105} INFO - Job 449: Subtask transform
+[2024-11-02T02:57:39.770+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10356) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-02T02:57:39.771+0000] {standard_task_runner.py:72} INFO - Started process 10357 to run task
+[2024-11-02T02:57:39.815+0000] {task_command.py:467} INFO - Running <TaskInstance: banco_mundial_indicators_v02.transform scheduled__2024-10-31T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-02T02:57:40.053+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='banco_mundial_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='10' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-31T00:00:00+00:00'
+[2024-11-02T02:57:40.053+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-02T02:57:50.573+0000] {logging_mixin.py:190} INFO - Error procesando el archivo /opt/***/data/banco_mundial/pbi.csv: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Country Name` cannot be resolved. Did you mean one of the following? [`"Country Name"`, `"Country Code"`, `"Indicator Name"`, ``, `"1960"`].;
+'Project ['Country Name, '2023]
++- LogicalRDD ["Country Name"#0, "Country Code"#1, "Indicator Name"#2, "Indicator Code"#3, "1960"#4, "1961"#5, "1962"#6, "1963"#7, "1964"#8, "1965"#9, "1966"#10, "1967"#11, "1968"#12, "1969"#13, "1970"#14, "1971"#15, "1972"#16, "1973"#17, "1974"#18, "1975"#19, "1976"#20, "1977"#21, "1978"#22, "1979"#23, ... 45 more fields], false
+[2024-11-02T02:57:51.733+0000] {logging_mixin.py:190} INFO - Error procesando el archivo /opt/***/data/banco_mundial/poblacion_total.csv: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Country Name` cannot be resolved. Did you mean one of the following? [`"Country Name"`, `"Country Code"`, `"Indicator Name"`, ``, `"1960"`].;
+'Project ['Country Name, '2023]
++- LogicalRDD ["Country Name"#138, "Country Code"#139, "Indicator Name"#140, "Indicator Code"#141, "1960"#142, "1961"#143, "1962"#144, "1963"#145, "1964"#146, "1965"#147, "1966"#148, "1967"#149, "1968"#150, "1969"#151, "1970"#152, "1971"#153, "1972"#154, "1973"#155, "1974"#156, "1975"#157, "1976"#158, "1977"#159, "1978"#160, "1979"#161, ... 46 more fields], false
+[2024-11-02T02:57:52.532+0000] {logging_mixin.py:190} INFO - Error procesando el archivo /opt/***/data/banco_mundial/pbi_percapita.csv: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Country Name` cannot be resolved. Did you mean one of the following? [`"Country Name"`, `"Country Code"`, `"Indicator Name"`, ``, `"1960"`].;
+'Project ['Country Name, '2023]
++- LogicalRDD ["Country Name"#278, "Country Code"#279, "Indicator Name"#280, "Indicator Code"#281, "1960"#282, "1961"#283, "1962"#284, "1963"#285, "1964"#286, "1965"#287, "1966"#288, "1967"#289, "1968"#290, "1969"#291, "1970"#292, "1971"#293, "1972"#294, "1973"#295, "1974"#296, "1975"#297, "1976"#298, "1977"#299, "1978"#300, "1979"#301, ... 45 more fields], false
+[2024-11-02T02:57:53.291+0000] {logging_mixin.py:190} INFO - Error procesando el archivo /opt/***/data/banco_mundial/inversion_extranjera.csv: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Country Name` cannot be resolved. Did you mean one of the following? [`"Country Name"`, `"Country Code"`, `"Indicator Name"`, ``, `"1960"`].;
+'Project ['Country Name, '2023]
++- LogicalRDD ["Country Name"#416, "Country Code"#417, "Indicator Name"#418, "Indicator Code"#419, "1960"#420, "1961"#421, "1962"#422, "1963"#423, "1964"#424, "1965"#425, "1966"#426, "1967"#427, "1968"#428, "1969"#429, "1970"#430, "1971"#431, "1972"#432, "1973"#433, "1974"#434, "1975"#435, "1976"#436, "1977"#437, "1978"#438, "1979"#439, ... 46 more fields], false
+[2024-11-02T02:57:53.292+0000] {logging_mixin.py:190} INFO - Error: list index out of range
+[2024-11-02T02:57:54.204+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-02T02:57:54.215+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-02T02:57:54.216+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=banco_mundial_indicators_v02, task_id=transform, run_id=scheduled__2024-10-31T00:00:00+00:00, execution_date=20241031T000000, start_date=20241102T025739, end_date=20241102T025754
+[2024-11-02T02:57:54.246+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-02T02:57:54.272+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-02T02:57:54.274+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
