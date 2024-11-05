@@ -8496,3 +8496,73 @@
 [2024-11-05T21:45:39.651+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:45:39.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-05T21:45:39.680+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:45:39.680+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
 [2024-11-05T21:45:39.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.199 seconds
+[2024-11-05T21:46:10.226+0000] {processor.py:186} INFO - Started process (PID=7370) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:10.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:46:10.230+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:10.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:10.339+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:10.365+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:10.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:46:10.396+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:10.396+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:46:10.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.197 seconds
+[2024-11-05T21:46:41.216+0000] {processor.py:186} INFO - Started process (PID=7406) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:41.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:46:41.221+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:41.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:41.396+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:46:41.437+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:41.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:46:41.485+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:46:41.484+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:46:41.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.310 seconds
+[2024-11-05T21:47:11.566+0000] {processor.py:186} INFO - Started process (PID=7442) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:11.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:47:11.570+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:11.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:11.735+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:11.771+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:11.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:47:11.802+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:11.801+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:47:11.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.267 seconds
+[2024-11-05T21:47:41.942+0000] {processor.py:186} INFO - Started process (PID=7478) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:41.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:47:41.948+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:41.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:42.099+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:47:42.134+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:42.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:47:42.171+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:47:42.171+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:47:42.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.264 seconds
+[2024-11-05T21:48:12.311+0000] {processor.py:186} INFO - Started process (PID=7514) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:12.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:48:12.314+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:12.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:12.443+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:12.476+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:12.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:48:12.512+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:12.511+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:48:12.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.234 seconds
+[2024-11-05T21:48:42.736+0000] {processor.py:186} INFO - Started process (PID=7550) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:42.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:48:42.740+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:42.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:42.853+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:48:42.880+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:42.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:48:42.910+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:48:42.910+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:48:42.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.203 seconds
+[2024-11-05T21:49:13.044+0000] {processor.py:186} INFO - Started process (PID=7586) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:13.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:49:13.047+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:13.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:13.156+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:13.189+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:13.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:49:13.219+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:13.219+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:49:13.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.201 seconds
+[2024-11-05T21:49:43.366+0000] {processor.py:186} INFO - Started process (PID=7622) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:43.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:49:43.370+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:43.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:43.495+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:49:43.525+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:43.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:49:43.556+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:49:43.556+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:49:43.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.222 seconds
+[2024-11-05T21:50:13.857+0000] {processor.py:186} INFO - Started process (PID=7658) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:13.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:50:13.862+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:13.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:13.971+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:13.998+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:13.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:50:14.029+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:14.029+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:50:14.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.203 seconds
+[2024-11-05T21:50:44.160+0000] {processor.py:186} INFO - Started process (PID=7694) to work on /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:44.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ipc_dag.py for tasks to queue
+[2024-11-05T21:50:44.164+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:44.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:44.272+0000] {processor.py:925} INFO - DAG(s) 'ipc_inflation_v03' retrieved from /opt/airflow/dags/ipc_dag.py
+[2024-11-05T21:50:44.299+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:44.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:50:44.332+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:44.331+0000] {dag.py:4180} INFO - Setting next_dagrun for ipc_inflation_v03 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:50:44.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ipc_dag.py took 0.201 seconds
