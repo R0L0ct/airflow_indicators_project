@@ -3248,3 +3248,59 @@
 [2024-11-05T21:50:41.054+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:41.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-05T21:50:41.086+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:41.086+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
 [2024-11-05T21:50:41.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.200 seconds
+[2024-11-05T21:51:11.211+0000] {processor.py:186} INFO - Started process (PID=7720) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:11.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:51:11.215+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:11.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:11.321+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:11.349+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:11.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:51:11.379+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:11.379+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:51:11.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.195 seconds
+[2024-11-05T21:51:41.523+0000] {processor.py:186} INFO - Started process (PID=7756) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:41.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:51:41.528+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:41.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:41.696+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:51:41.731+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:41.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:51:41.768+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:41.768+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:51:41.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.285 seconds
+[2024-11-05T21:52:11.855+0000] {processor.py:186} INFO - Started process (PID=7792) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:11.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:52:11.858+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:11.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:11.971+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:12.000+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:11.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:52:12.029+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:12.029+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:52:12.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.201 seconds
+[2024-11-05T21:52:42.575+0000] {processor.py:186} INFO - Started process (PID=7828) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:42.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:52:42.580+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:42.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:42.773+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:52:42.816+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:42.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:52:42.850+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:42.849+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:52:42.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.314 seconds
+[2024-11-05T21:53:13.594+0000] {processor.py:186} INFO - Started process (PID=7864) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:13.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:53:13.597+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:13.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:13.720+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:13.749+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:13.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:53:13.781+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:13.781+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:53:13.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.217 seconds
+[2024-11-05T21:53:44.387+0000] {processor.py:186} INFO - Started process (PID=7900) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:44.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:53:44.393+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:44.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:44.555+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:53:44.585+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:44.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:53:44.615+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:44.615+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:53:44.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.259 seconds
+[2024-11-05T21:54:15.171+0000] {processor.py:186} INFO - Started process (PID=7936) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:15.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:54:15.174+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:15.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:15.333+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:15.370+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:15.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:54:15.405+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:15.405+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:54:15.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.271 seconds
+[2024-11-05T21:54:46.152+0000] {processor.py:186} INFO - Started process (PID=7972) to work on /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:46.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crime_dag.py for tasks to queue
+[2024-11-05T21:54:46.156+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:46.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:46.264+0000] {processor.py:925} INFO - DAG(s) 'crime_data_v02' retrieved from /opt/airflow/dags/crime_dag.py
+[2024-11-05T21:54:46.295+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:46.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:54:46.328+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:46.327+0000] {dag.py:4180} INFO - Setting next_dagrun for crime_data_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:54:46.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crime_dag.py took 0.204 seconds

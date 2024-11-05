@@ -8588,3 +8588,59 @@
 [2024-11-05T21:50:42.284+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:42.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-05T21:50:42.315+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:50:42.315+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
 [2024-11-05T21:50:42.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.204 seconds
+[2024-11-05T21:51:12.438+0000] {processor.py:186} INFO - Started process (PID=7725) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:12.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:51:12.442+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:12.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:12.548+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:12.575+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:12.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:51:12.607+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:12.606+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:51:12.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.200 seconds
+[2024-11-05T21:51:42.842+0000] {processor.py:186} INFO - Started process (PID=7761) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:42.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:51:42.847+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:42.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:43.001+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:51:43.046+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:43.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:51:43.094+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:51:43.094+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:51:43.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.298 seconds
+[2024-11-05T21:52:13.871+0000] {processor.py:186} INFO - Started process (PID=7797) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:13.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:52:13.875+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:13.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:13.990+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:14.018+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:14.017+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:52:14.047+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:14.047+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:52:14.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.203 seconds
+[2024-11-05T21:52:44.781+0000] {processor.py:186} INFO - Started process (PID=7833) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:44.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:52:44.785+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:44.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:44.935+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:52:44.970+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:44.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:52:45.008+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:52:45.007+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:52:45.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.265 seconds
+[2024-11-05T21:53:15.612+0000] {processor.py:186} INFO - Started process (PID=7869) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:15.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:53:15.617+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:15.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:15.734+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:15.761+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:15.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:53:15.797+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:15.797+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:53:15.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.219 seconds
+[2024-11-05T21:53:46.610+0000] {processor.py:186} INFO - Started process (PID=7905) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:46.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:53:46.616+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:46.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:46.818+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:53:46.892+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:46.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:53:46.960+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:53:46.960+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:53:46.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.399 seconds
+[2024-11-05T21:54:17.414+0000] {processor.py:186} INFO - Started process (PID=7941) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:17.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:54:17.417+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:17.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:17.525+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:17.555+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:17.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:54:17.585+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:17.584+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:54:17.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.198 seconds
+[2024-11-05T21:54:48.349+0000] {processor.py:186} INFO - Started process (PID=7983) to work on /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:48.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/covid_dag.py for tasks to queue
+[2024-11-05T21:54:48.354+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:48.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:48.466+0000] {processor.py:925} INFO - DAG(s) 'covid_indicators_v02' retrieved from /opt/airflow/dags/covid_dag.py
+[2024-11-05T21:54:48.494+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:48.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:54:48.523+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:48.523+0000] {dag.py:4180} INFO - Setting next_dagrun for covid_indicators_v02 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:54:48.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/covid_dag.py took 0.203 seconds
