@@ -8622,3 +8622,38 @@
 [2024-11-05T21:54:51.760+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:51.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-05T21:54:51.816+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:54:51.815+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
 [2024-11-05T21:54:51.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.258 seconds
+[2024-11-05T21:55:22.530+0000] {processor.py:186} INFO - Started process (PID=8032) to work on /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:22.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/second_dag.py for tasks to queue
+[2024-11-05T21:55:22.535+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:22.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:22.717+0000] {processor.py:925} INFO - DAG(s) 'indices_provincias_v05' retrieved from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:22.769+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:22.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:55:22.801+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:22.801+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:55:22.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.304 seconds
+[2024-11-05T21:55:53.538+0000] {processor.py:186} INFO - Started process (PID=8068) to work on /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:53.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/second_dag.py for tasks to queue
+[2024-11-05T21:55:53.546+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:53.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:53.709+0000] {processor.py:925} INFO - DAG(s) 'indices_provincias_v05' retrieved from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:55:53.748+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:53.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:55:53.794+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:55:53.794+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:55:53.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.293 seconds
+[2024-11-05T21:56:24.561+0000] {processor.py:186} INFO - Started process (PID=8104) to work on /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:24.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/second_dag.py for tasks to queue
+[2024-11-05T21:56:24.565+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:24.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:24.702+0000] {processor.py:925} INFO - DAG(s) 'indices_provincias_v05' retrieved from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:24.734+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:24.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:56:24.779+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:24.778+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:56:24.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.264 seconds
+[2024-11-05T21:56:55.153+0000] {processor.py:186} INFO - Started process (PID=8140) to work on /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:55.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/second_dag.py for tasks to queue
+[2024-11-05T21:56:55.156+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:55.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:55.277+0000] {processor.py:925} INFO - DAG(s) 'indices_provincias_v05' retrieved from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:56:55.307+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:55.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:56:55.338+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:56:55.338+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:56:55.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.216 seconds
+[2024-11-05T21:57:26.035+0000] {processor.py:186} INFO - Started process (PID=8176) to work on /opt/airflow/dags/second_dag.py
+[2024-11-05T21:57:26.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/second_dag.py for tasks to queue
+[2024-11-05T21:57:26.040+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:57:26.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:57:26.187+0000] {processor.py:925} INFO - DAG(s) 'indices_provincias_v05' retrieved from /opt/airflow/dags/second_dag.py
+[2024-11-05T21:57:26.215+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:57:26.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T21:57:26.248+0000] {logging_mixin.py:190} INFO - [2024-11-05T21:57:26.248+0000] {dag.py:4180} INFO - Setting next_dagrun for indices_provincias_v05 to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-05T21:57:26.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/second_dag.py took 0.250 seconds
