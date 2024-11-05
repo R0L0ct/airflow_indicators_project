@@ -1,0 +1,123 @@
+[2024-11-05T01:10:48.762+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T01:10:48.782+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: covid_indicators_v02.transform scheduled__2024-11-04T00:00:00+00:00 [queued]>
+[2024-11-05T01:10:48.794+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: covid_indicators_v02.transform scheduled__2024-11-04T00:00:00+00:00 [queued]>
+[2024-11-05T01:10:48.794+0000] {taskinstance.py:2865} INFO - Starting attempt 7 of 12
+[2024-11-05T01:10:48.820+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-11-04 00:00:00+00:00
+[2024-11-05T01:10:48.828+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=7387) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-05T01:10:48.829+0000] {standard_task_runner.py:72} INFO - Started process 7388 to run task
+[2024-11-05T01:10:48.828+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'covid_indicators_v02', 'transform', 'scheduled__2024-11-04T00:00:00+00:00', '--job-id', '604', '--raw', '--subdir', 'DAGS_FOLDER/covid_dag.py', '--cfg-path', '/tmp/tmpbd8f3v6f']
+[2024-11-05T01:10:48.831+0000] {standard_task_runner.py:105} INFO - Job 604: Subtask transform
+[2024-11-05T01:10:48.892+0000] {task_command.py:467} INFO - Running <TaskInstance: covid_indicators_v02.transform scheduled__2024-11-04T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-05T01:10:49.184+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='covid_indicators_v02' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-11-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-04T00:00:00+00:00'
+[2024-11-05T01:10:49.185+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T01:11:05.062+0000] {logging_mixin.py:190} INFO - +--------------------+----------+-----------+---------+
+|            location|      date|total_cases|new_cases|
++--------------------+----------+-----------+---------+
+|            Slovakia|2024-08-04|    1878002|       61|
+|                Niue|2024-08-04|       1074|        0|
+|            Anguilla|2024-08-04|       3904|        0|
+|Lower-middle-inco...|2024-08-04|   91954400|      598|
+|            Guernsey|2024-08-04|      35326|        0|
+|          Luxembourg|2024-08-04|     393542|      190|
+|         Afghanistan|2024-08-04|     235214|        0|
+|          Madagascar|2024-08-04|      68567|        0|
+|        Saudi Arabia|2024-08-04|     841469|        0|
+|              Malawi|2024-08-04|      89168|        0|
+|              Africa|2024-08-04|   13145380|       36|
+|            Malaysia|2024-08-04|    5309410|     1085|
+|         El Salvador|2024-08-04|     201920|        3|
+|            Maldives|2024-08-04|     186694|        0|
+|             Albania|2024-08-04|     335047|        0|
+|                Mali|2024-08-04|      33166|        0|
+|             Senegal|2024-08-04|      89485|        0|
+|             Moldova|2024-08-04|     637520|      743|
+|             Algeria|2024-08-04|     272139|       18|
+|    Marshall Islands|2024-08-04|      16297|        0|
+|   Equatorial Guinea|2024-08-04|      17130|        0|
+|          Martinique|2024-08-04|     230354|        0|
+|      American Samoa|2024-08-04|       8359|        0|
+|          Mauritania|2024-08-04|      63872|        0|
+|              Serbia|2024-08-04|    2583470|        0|
+|           Mauritius|2024-08-04|     328167|        0|
+|             Andorra|2024-08-04|      48015|        0|
+|             Mayotte|2024-08-04|      42027|        0|
+|             Eritrea|2024-08-04|      10189|        0|
+|              Mexico|2024-08-04|    7619458|      340|
+|              Angola|2024-08-04|     107481|        0|
+|Micronesia (country)|2024-08-04|      31765|        0|
+|          Seychelles|2024-08-04|      51886|        0|
+|              Monaco|2024-08-04|      17181|        0|
+|          Azerbaijan|2024-08-04|     835757|       63|
+|            Mongolia|2024-08-04|    1011489|        0|
+|             Estonia|2024-08-04|     610471|        0|
+|          Montenegro|2024-08-04|     251280|        0|
+| Antigua and Barbuda|2024-08-04|       9106|        0|
+|          Montserrat|2024-08-04|       1403|        0|
+|        Sierra Leone|2024-08-04|       7979|        0|
+|             Morocco|2024-08-04|    1279115|        0|
+|           Argentina|2024-08-04|   10101218|       54|
+|          Mozambique|2024-08-04|     233843|        0|
+|            Eswatini|2024-08-04|      75356|        0|
+|             Myanmar|2024-08-04|     642885|       26|
+|             Armenia|2024-08-04|     452273|        0|
+|             Namibia|2024-08-04|     172533|        0|
+|           Singapore|2024-08-04|    3006155|        0|
+|               Nauru|2024-08-04|       5393|        0|
+|               Aruba|2024-08-04|      44224|        0|
+|               Nepal|2024-08-04|    1003450|        0|
+|            Ethiopia|2024-08-04|     501193|        0|
+|         Netherlands|2024-08-04|    8640008|      383|
+|                Asia|2024-08-04|  301499099|     4515|
+|       New Caledonia|2024-08-04|      80163|        0|
+|Sint Maarten (Dut...|2024-08-04|      11051|        0|
+|         New Zealand|2024-08-04|    2639048|     1730|
+|           Australia|2024-08-04|   11861161|        0|
+|           Nicaragua|2024-08-04|      16185|        2|
+|              Europe|2024-08-04|  252916868|    39047|
+|               Niger|2024-08-04|       9518|        0|
+|             Austria|2024-08-04|    6082444|       15|
+|             Nigeria|2024-08-04|     267188|        0|
+|               Spain|2024-08-04|   13980340|     NULL|
+|               Malta|2024-08-04|     122796|       80|
+|             Bahamas|2024-08-04|      39127|        0|
+|          San Marino|2024-08-04|      25292|        0|
+| European Union (27)|2024-08-04|  185822587|    25642|
+|       North America|2024-08-04|  124492666|      454|
+|             Bahrain|2024-08-04|     696614|        0|
+|         North Korea|2024-08-04|          0|        0|
+|            Slovenia|2024-08-04|    1356582|      148|
+|     North Macedonia|2024-08-04|     350924|      116|
+|          Bangladesh|2024-08-04|    2051348|       40|
+|Northern Mariana ...|2024-08-04|      14912|       31|
+|    Falkland Islands|2024-08-04|       1923|        0|
+|              Norway|2024-08-04|    1512647|      745|
+|            Barbados|2024-08-04|     108582|       57|
+|             Oceania|2024-08-04|   15003352|     1809|
+|     Solomon Islands|2024-08-04|      25954|        0|
+|                Oman|2024-08-04|     399449|        0|
+|             Belarus|2024-08-04|     994037|        0|
+|            Pakistan|2024-08-04|    1580631|        0|
+|       Faroe Islands|2024-08-04|      34658|        0|
+|               Palau|2024-08-04|       6372|        0|
+|             Belgium|2024-08-04|    4872829|     1277|
+|           Palestine|2024-08-04|     703228|        0|
+|             Somalia|2024-08-04|      27334|        0|
+|              Panama|2024-08-04|    1044821|        0|
+|              Belize|2024-08-04|      71414|        0|
+|    Papua New Guinea|2024-08-04|      46864|        0|
+|                Fiji|2024-08-04|      69047|        0|
+|            Paraguay|2024-08-04|     735759|        0|
+|               Benin|2024-08-04|      28036|        0|
+|                Peru|2024-08-04|    4526977|        0|
+|        South Africa|2024-08-04|    4072765|        0|
+|         Philippines|2024-08-04|    4140383|        0|
+|             Bermuda|2024-08-04|      18860|        0|
+|            Pitcairn|2024-08-04|          4|        0|
++--------------------+----------+-----------+---------+
+only showing top 100 rows
+[2024-11-05T01:11:11.818+0000] {python.py:240} INFO - Done. Returned value was: /opt/***/data/covid/covid-19-data-transformed.csv
+[2024-11-05T01:11:11.845+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T01:11:11.845+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=covid_indicators_v02, task_id=transform, run_id=scheduled__2024-11-04T00:00:00+00:00, execution_date=20241104T000000, start_date=20241105T011048, end_date=20241105T011111
+[2024-11-05T01:11:11.872+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T01:11:11.907+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T01:11:11.909+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
