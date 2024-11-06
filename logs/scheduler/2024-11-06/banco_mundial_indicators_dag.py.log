@@ -1461,3 +1461,73 @@
 [2024-11-06T02:55:55.116+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:55:55.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-06T02:55:55.179+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:55:55.178+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
 [2024-11-06T02:55:55.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.374 seconds
+[2024-11-06T02:56:26.041+0000] {processor.py:186} INFO - Started process (PID=11473) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:26.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:56:26.046+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:26.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:26.179+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:26.207+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:26.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:56:26.237+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:26.236+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:56:26.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.228 seconds
+[2024-11-06T02:56:57.043+0000] {processor.py:186} INFO - Started process (PID=11509) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:57.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:56:57.047+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:57.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:57.211+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:56:57.258+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:57.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:56:57.315+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:56:57.315+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:56:57.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.326 seconds
+[2024-11-06T02:57:27.990+0000] {processor.py:186} INFO - Started process (PID=11545) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:27.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:57:27.995+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:27.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:28.167+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:28.200+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:28.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:57:28.234+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:28.234+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:57:28.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.281 seconds
+[2024-11-06T02:57:58.769+0000] {processor.py:186} INFO - Started process (PID=11581) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:58.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:57:58.774+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:58.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:58.947+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:57:58.986+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:58.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:57:59.029+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:57:59.028+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:57:59.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.297 seconds
+[2024-11-06T02:58:29.592+0000] {processor.py:186} INFO - Started process (PID=11617) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:58:29.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:58:29.597+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:58:29.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:58:29.768+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:58:29.803+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:58:29.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:58:29.843+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:58:29.843+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:58:29.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.282 seconds
+[2024-11-06T02:59:00.411+0000] {processor.py:186} INFO - Started process (PID=11653) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:00.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:59:00.417+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:00.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:00.583+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:00.622+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:00.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:59:00.668+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:00.667+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:59:00.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.290 seconds
+[2024-11-06T02:59:31.213+0000] {processor.py:186} INFO - Started process (PID=11689) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:31.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T02:59:31.219+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:31.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:31.440+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T02:59:31.490+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:31.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T02:59:31.523+0000] {logging_mixin.py:190} INFO - [2024-11-06T02:59:31.523+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T02:59:31.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.355 seconds
+[2024-11-06T03:00:02.015+0000] {processor.py:186} INFO - Started process (PID=11725) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:02.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T03:00:02.021+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:02.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:02.173+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:02.212+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:02.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T03:00:02.256+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:02.255+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T03:00:02.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.288 seconds
+[2024-11-06T03:00:32.783+0000] {processor.py:186} INFO - Started process (PID=11761) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:32.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T03:00:32.788+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:32.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:32.901+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:00:32.933+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:32.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T03:00:32.964+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:00:32.964+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T03:00:32.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.212 seconds
+[2024-11-06T03:01:03.637+0000] {processor.py:186} INFO - Started process (PID=11797) to work on /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:01:03.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/banco_mundial_indicators_dag.py for tasks to queue
+[2024-11-06T03:01:03.640+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:01:03.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:01:03.765+0000] {processor.py:925} INFO - DAG(s) 'banco_mundial_indicators_v02' retrieved from /opt/airflow/dags/banco_mundial_indicators_dag.py
+[2024-11-06T03:01:03.796+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:01:03.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T03:01:03.828+0000] {logging_mixin.py:190} INFO - [2024-11-06T03:01:03.828+0000] {dag.py:4180} INFO - Setting next_dagrun for banco_mundial_indicators_v02 to 2024-11-06 00:00:00+00:00, run_after=2024-11-07 00:00:00+00:00
+[2024-11-06T03:01:03.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/banco_mundial_indicators_dag.py took 0.220 seconds
