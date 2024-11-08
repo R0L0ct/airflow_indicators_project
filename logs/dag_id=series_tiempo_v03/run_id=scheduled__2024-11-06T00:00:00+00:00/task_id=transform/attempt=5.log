@@ -1,0 +1,123 @@
+[2024-11-07T21:42:22.365+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T21:42:22.385+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: series_tiempo_v03.transform scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T21:42:22.395+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: series_tiempo_v03.transform scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T21:42:22.395+0000] {taskinstance.py:2865} INFO - Starting attempt 5 of 10
+[2024-11-07T21:42:22.410+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-11-06 00:00:00+00:00
+[2024-11-07T21:42:22.418+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'series_tiempo_v03', 'transform', 'scheduled__2024-11-06T00:00:00+00:00', '--job-id', '684', '--raw', '--subdir', 'DAGS_FOLDER/series_tiempo_dag.py', '--cfg-path', '/tmp/tmphb0r_2p0']
+[2024-11-07T21:42:22.420+0000] {standard_task_runner.py:105} INFO - Job 684: Subtask transform
+[2024-11-07T21:42:22.422+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=6348) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-07T21:42:22.423+0000] {standard_task_runner.py:72} INFO - Started process 6349 to run task
+[2024-11-07T21:42:22.469+0000] {task_command.py:467} INFO - Running <TaskInstance: series_tiempo_v03.transform scheduled__2024-11-06T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-07T21:42:22.702+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='series_tiempo_v03' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-11-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-06T00:00:00+00:00'
+[2024-11-07T21:42:22.703+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T21:42:52.260+0000] {logging_mixin.py:190} INFO - +--------------------------------------------------------+----------------+
+|serie_titulo                                            |promedio_x_serie|
++--------------------------------------------------------+----------------+
+|vbp_diseno                                              |2499230.59      |
+|caseinatos                                              |553819.12       |
+|ejercito_argentino_personal_cuerpo_prof_masculino_cant  |961.28          |
+|toritos                                                 |146284.14       |
+|produccion_jujuy                                        |335.19          |
+|precio_futuro_londres_mayo                              |NaN             |
+|vbp_contenido_digital                                   |2527918.12      |
+|quesos_mediana_humedad                                  |100377.03       |
+|molienda_soja                                           |1.256974524E7   |
+|fuerza_aerea_personal_oficiales_masculino_cant          |2216.0          |
+|molienda_sorgo_granifero                                |161857.45       |
+|tc_ars_dolar_hipotecario_electronico_compra_13hs        |NaN             |
+|tc_ars_euro_galicia_mostrador_compra_11hs               |NaN             |
+|fuerza_aerea_personal_oficiales_cant                    |2531.63         |
+|ejercito_argentino_personal_oficiales_cant              |5818.94         |
+|real_brasil                                             |NaN             |
+|tipo_cambio_referencia                                  |NaN             |
+|fuerza_aerea_personal_masculino_cant                    |11582.53        |
+|ejercito_argentino_personal_cuerpo_comando_femenino_cant|96.61           |
+|ventas_mercado_aerokerosene_la_rioja                    |40.94           |
+|exportacion_precio_dolares_por_toneladas_res_con_hueso  |3143.16         |
+|kbbl_diario                                             |539.83          |
+|produccion_en_miles_de_toneladas_res_con_hueso          |234.76          |
+|leche_cruda_destinada_a_leche_en_polvo_entera           |119.94          |
+|leche_cruda_destinada_a_leche_esterilizada_descremada   |3.09            |
+|produccion_san_juan                                     |6207721.02      |
+|padrillos                                               |69477.25        |
+|ventas_mercado_aerokerosene_entre_rios                  |39.18           |
+|proteina_cordoba                                        |3.32            |
+|vbp_artes_escenicas                                     |1106320.18      |
+|queso_rallado                                           |2187038.64      |
+|mendoza                                                 |NaN             |
+|crema                                                   |313261.29       |
+|dolar_canadiense                                        |NaN             |
+|precio_futuro_nueva_york_mayo                           |NaN             |
+|leche_pasteurizada_entera                               |6194.88         |
+|superficie_sembrada_soja_ha                             |8632681.63      |
+|cantidad_por_miles_quesos_baja_humedad1                 |197916.32       |
+|superficie_ha_san_luis                                  |95.84           |
+|superficie_cosechada_soja_ha                            |8385568.51      |
+|leche_cruda_destinada_a_productos                       |348.07          |
+|tierra_del_fuego                                        |NaN             |
+|leche_cruda_destinada_a_leche_pasteurizada_entera       |68.66           |
+|al_corte                                                |93564.78        |
+|fuerza_aerea_personal_cuerpo_profesional_masculino_cant |584.0           |
+|cantidad_por_miles_leche_en_polvo_entera1               |168309.96       |
+|cantidad_por_miles_leche_en_polvo_entera2               |276506.94       |
+|molienda_trigo_candeal                                  |112538.19       |
+|fuerza_aerea_personal_masculino_pct                     |0.82            |
+|leche_polvo_entera                                      |9.809755477E7   |
+|leche_cruda_precio_promedio_kg                          |2.57            |
+|focos_cantidad                                          |14.23           |
+|santiago_del_estero                                     |NaN             |
+|shekel_israel                                           |NaN             |
+|fuerza_aerea_personal_tropa_voluntaria_cant             |1656.0          |
+|ejercito_argentino_personal_cuerpo_prof_femenino_cant   |691.78          |
+|catamarca                                               |NaN             |
+|franco_suizo                                            |NaN             |
+|tc_ars_dolar_hipotecario_mostrador_compra_13hs          |NaN             |
+|vbp_formacion_cultural                                  |307028.35       |
+|cantidad_por_miles_leche_en_polvo_descremada1           |85574.04        |
+|buenos_aires                                            |NaN             |
+|terneros                                                |6607214.0       |
+|ventas_mercado_aerokerosene_rio_negro                   |15.69           |
+|tipo_cambio_urinusca                                    |NaN             |
+|fuerza_aerea_personal_oficiales_femenino_cant           |315.63          |
+|ventas_mercado_aerokerosene_total_pais                  |57961.35        |
+|queso_fundido                                           |424894.96       |
+|proteina_santa_fe                                       |3.3             |
+|produccion_mendoza                                      |1.54140522E7    |
+|armada_argentina_personal_suboficiales_femenino_cant    |1853.75         |
+|ejercito_argentino_personal_cuerpo_comando_cant         |4165.89         |
+|produccion_gas_natural_total_diario                     |122.33          |
+|leche_pasteurizada_semidescremada                       |2179.49         |
+|libra_esterlina                                         |NaN             |
+|fuerza_aerea_personal_total                             |14062.26        |
+|cantidad_por_miles_quesos_alta_humedad3                 |42028.1         |
+|superficie_ha_jujuy                                     |16.62           |
+|queso_pasta_semidura                                    |1.49994302E7    |
+|superficie_sembrada_maiz                                |3965650.37      |
+|produccion_salta                                        |291477.77       |
+|yen_japon                                               |NaN             |
+|superficie_ha_salta                                     |3057.89         |
+|superficie_sembrada_soja                                |8308077.2       |
+|vbp_publicidad                                          |3917499.0       |
+|produccion_san_luis                                     |1268.58         |
+|ventas_mercado_aerokerosene_neuquen                     |1010.57         |
+|leche_pasteurizada_descremada                           |5434.02         |
+|leche_condesada                                         |155.94          |
+|aceite_butirico                                         |2692517.57      |
+|proteina_santiago_del_estero                            |3.29            |
+|santa_fe                                                |NaN             |
+|NULL                                                    |NULL            |
+|la_pampa                                                |NaN             |
+|ingreso_semillas_algodon_destino_industria_aceitera     |NaN             |
+|fuerza_aerea_personal_tropa_suboficiales_cant           |9874.63         |
+|consumo_aparente_miles_tn                               |146.65          |
+|superficie_cosechada_maiz_ha                            |3265379.29      |
+|cantidad_por_miles_leche_en_polvo_entera                |145778.45       |
+|tc_ars_dolar_hipotecario_mostrador_compra_11hs          |NaN             |
++--------------------------------------------------------+----------------+
+only showing top 100 rows
+[2024-11-07T21:42:52.473+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-07T21:42:52.486+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T21:42:52.487+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=series_tiempo_v03, task_id=transform, run_id=scheduled__2024-11-06T00:00:00+00:00, execution_date=20241106T000000, start_date=20241107T214222, end_date=20241107T214252
+[2024-11-07T21:42:52.561+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T21:42:52.604+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T21:42:52.609+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

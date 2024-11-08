@@ -1,0 +1,18 @@
+[2024-11-07T21:33:28.180+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T21:33:28.207+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: series_tiempo_v03.load_and_sink scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T21:33:28.222+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: series_tiempo_v03.load_and_sink scheduled__2024-11-06T00:00:00+00:00 [queued]>
+[2024-11-07T21:33:28.223+0000] {taskinstance.py:2865} INFO - Starting attempt 4 of 9
+[2024-11-07T21:33:28.241+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_and_sink> on 2024-11-06 00:00:00+00:00
+[2024-11-07T21:33:28.252+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'series_tiempo_v03', 'load_and_sink', 'scheduled__2024-11-06T00:00:00+00:00', '--job-id', '683', '--raw', '--subdir', 'DAGS_FOLDER/series_tiempo_dag.py', '--cfg-path', '/tmp/tmpwpayh3ug']
+[2024-11-07T21:33:28.256+0000] {standard_task_runner.py:105} INFO - Job 683: Subtask load_and_sink
+[2024-11-07T21:33:28.260+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5648) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-07T21:33:28.262+0000] {standard_task_runner.py:72} INFO - Started process 5649 to run task
+[2024-11-07T21:33:28.324+0000] {task_command.py:467} INFO - Running <TaskInstance: series_tiempo_v03.load_and_sink scheduled__2024-11-06T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-07T21:33:28.645+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='series_tiempo_v03' AIRFLOW_CTX_TASK_ID='load_and_sink' AIRFLOW_CTX_EXECUTION_DATE='2024-11-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-06T00:00:00+00:00'
+[2024-11-07T21:33:28.646+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T21:33:28.664+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-07T21:33:28.679+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T21:33:28.680+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=series_tiempo_v03, task_id=load_and_sink, run_id=scheduled__2024-11-06T00:00:00+00:00, execution_date=20241106T000000, start_date=20241107T213328, end_date=20241107T213328
+[2024-11-07T21:33:28.721+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T21:33:28.744+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T21:33:28.747+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,18 @@
+[2024-11-07T07:12:42.955+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T07:12:43.014+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: series_tiempo_v01.transform manual__2024-11-07T07:12:41.605093+00:00 [queued]>
+[2024-11-07T07:12:43.035+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: series_tiempo_v01.transform manual__2024-11-07T07:12:41.605093+00:00 [queued]>
+[2024-11-07T07:12:43.036+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2024-11-07T07:12:43.064+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-11-07 07:12:41.605093+00:00
+[2024-11-07T07:12:43.080+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'series_tiempo_v01', 'transform', 'manual__2024-11-07T07:12:41.605093+00:00', '--job-id', '671', '--raw', '--subdir', 'DAGS_FOLDER/series_tiempo_dag.py', '--cfg-path', '/tmp/tmpz1l92qx3']
+[2024-11-07T07:12:43.083+0000] {standard_task_runner.py:105} INFO - Job 671: Subtask transform
+[2024-11-07T07:12:43.083+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=15289) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-07T07:12:43.083+0000] {standard_task_runner.py:72} INFO - Started process 15295 to run task
+[2024-11-07T07:12:43.161+0000] {task_command.py:467} INFO - Running <TaskInstance: series_tiempo_v01.transform manual__2024-11-07T07:12:41.605093+00:00 [running]> on host 276004bbea2b
+[2024-11-07T07:12:43.521+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='series_tiempo_v01' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T07:12:41.605093+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-07T07:12:41.605093+00:00'
+[2024-11-07T07:12:43.522+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T07:12:43.540+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-07T07:12:43.551+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T07:12:43.552+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=series_tiempo_v01, task_id=transform, run_id=manual__2024-11-07T07:12:41.605093+00:00, execution_date=20241107T071241, start_date=20241107T071243, end_date=20241107T071243
+[2024-11-07T07:12:43.591+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T07:12:43.608+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T07:12:43.609+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
