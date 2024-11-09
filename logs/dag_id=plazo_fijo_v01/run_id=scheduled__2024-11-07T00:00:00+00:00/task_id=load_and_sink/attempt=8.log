@@ -1,0 +1,18 @@
+[2024-11-09T21:02:41.814+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-09T21:02:41.835+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: plazo_fijo_v01.load_and_sink scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-09T21:02:41.850+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: plazo_fijo_v01.load_and_sink scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-09T21:02:41.850+0000] {taskinstance.py:2865} INFO - Starting attempt 8 of 13
+[2024-11-09T21:02:41.866+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_and_sink> on 2024-11-07 00:00:00+00:00
+[2024-11-09T21:02:41.875+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'plazo_fijo_v01', 'load_and_sink', 'scheduled__2024-11-07T00:00:00+00:00', '--job-id', '765', '--raw', '--subdir', 'DAGS_FOLDER/plazo_fijo_dag.py', '--cfg-path', '/tmp/tmpsz00s9v9']
+[2024-11-09T21:02:41.878+0000] {standard_task_runner.py:105} INFO - Job 765: Subtask load_and_sink
+[2024-11-09T21:02:41.881+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5003) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-09T21:02:41.882+0000] {standard_task_runner.py:72} INFO - Started process 5004 to run task
+[2024-11-09T21:02:41.937+0000] {task_command.py:467} INFO - Running <TaskInstance: plazo_fijo_v01.load_and_sink scheduled__2024-11-07T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-09T21:02:42.296+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='plazo_fijo_v01' AIRFLOW_CTX_TASK_ID='load_and_sink' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-07T00:00:00+00:00'
+[2024-11-09T21:02:42.297+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-09T21:03:01.411+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-09T21:03:01.423+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-09T21:03:01.423+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=plazo_fijo_v01, task_id=load_and_sink, run_id=scheduled__2024-11-07T00:00:00+00:00, execution_date=20241107T000000, start_date=20241109T210241, end_date=20241109T210301
+[2024-11-09T21:03:01.476+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-09T21:03:01.491+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-09T21:03:01.493+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

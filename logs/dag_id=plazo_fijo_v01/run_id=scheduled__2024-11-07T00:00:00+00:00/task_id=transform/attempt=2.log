@@ -1,0 +1,18 @@
+[2024-11-08T21:19:43.592+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-08T21:19:43.619+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: plazo_fijo_v01.transform scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-08T21:19:43.637+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: plazo_fijo_v01.transform scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-08T21:19:43.637+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 7
+[2024-11-08T21:19:43.666+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform> on 2024-11-07 00:00:00+00:00
+[2024-11-08T21:19:43.679+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'plazo_fijo_v01', 'transform', 'scheduled__2024-11-07T00:00:00+00:00', '--job-id', '721', '--raw', '--subdir', 'DAGS_FOLDER/plazo_fijo_dag.py', '--cfg-path', '/tmp/tmpa7wq2gs9']
+[2024-11-08T21:19:43.684+0000] {standard_task_runner.py:105} INFO - Job 721: Subtask transform
+[2024-11-08T21:19:43.686+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=11240) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-08T21:19:43.687+0000] {standard_task_runner.py:72} INFO - Started process 11241 to run task
+[2024-11-08T21:19:43.751+0000] {task_command.py:467} INFO - Running <TaskInstance: plazo_fijo_v01.transform scheduled__2024-11-07T00:00:00+00:00 [running]> on host 276004bbea2b
+[2024-11-08T21:19:44.128+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rolo' AIRFLOW_CTX_DAG_ID='plazo_fijo_v01' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-07T00:00:00+00:00'
+[2024-11-08T21:19:44.128+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-08T21:19:44.146+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-08T21:19:44.158+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-08T21:19:44.158+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=plazo_fijo_v01, task_id=transform, run_id=scheduled__2024-11-07T00:00:00+00:00, execution_date=20241107T000000, start_date=20241108T211943, end_date=20241108T211944
+[2024-11-08T21:19:44.187+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-08T21:19:44.213+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-08T21:19:44.214+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
